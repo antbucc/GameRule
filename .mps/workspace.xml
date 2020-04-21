@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarksTool">
+    <option name="myTreeState">
+      <TreeState />
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e982b053-c182-4b18-aca6-e48a0742e586" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="43e0babe-df96-4fcb-bff1-a507b6b5b801/r:25877b3f-1c7d-4028-bd24-a72a995048c9(TempModule43e0babe-df96-4fcb-bff1-a507b6b5b801/ConsoleModel_14988971554200)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="583400YAdE2">
+                <node concept="3balQm" id="583400YAdE3" role="aymYE" />
+                <node concept="2Clz$F" id="583400YAdE4" role="aymYO" />
+                <node concept="2_V_lH" id="583400YAdE5" role="1PhJh3">
+                  <ref role="2_V_lI" node="583400YAdE4" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.mps" />
+      </set>
+    </option>
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="OverrideImplementMethodComponent">
+    <option name="addReturnsOnImplement" value="true" />
+    <option name="addOverrideAnnotation" value="false" />
+    <option name="removeAttributes" value="false" />
+  </component>
+  <component name="ProjectId" id="1ZwouXQTwRfh6OiH01KpgjwXTCN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="true" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.vcs.mergehints.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10728a21-9d50-4001-b512-028bca3b6566(Drools.sandbox@transient37)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10728a21-9d50-4001-b512-028bca3b6566(Drools.sandbox@transient37)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10728a21-9d50-4001-b512-028bca3b6566/i:10001000(Drools.sandbox@transient37/Drools.sandbox@0) in null" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e982b053-c182-4b18-aca6-e48a0742e586" name="Default Changelist" comment="" />
+      <created>1585759740926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585759740926</updated>
+    </task>
+    <task id="LOCAL-00001" summary=" all file added">
+      <created>1587489666468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587489666468</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" all file added">
+      <created>1587489778496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587489778496</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs>
+      <tab>
+        <usage_view>
+          <tree_wrapper>
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents caption="" excluded="false" isresult="false" results_section="false">
+              <role name="main root" />
+              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
+                <role name="searched nodes" />
+                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="Drools.sandbox" excluded="false" isresult="false" results_section="false" module_ref="bfaf09b9-0eb2-4267-be94-ec47afec3eb2(Drools.sandbox)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="Drools.sandbox" excluded="false" isresult="false" results_section="false">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="rule1" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:776effea-4608-40ca-bab8-b764da10c05d(Drools.sandbox)/87898470604489878" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="$test" info="(role: patterns in: rule1)" excluded="false" isresult="true" results_section="false" nodePtr="r:776effea-4608-40ca-bab8-b764da10c05d(Drools.sandbox)/4703868874257993324">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:776effea-4608-40ca-bab8-b764da10c05d(Drools.sandbox)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+              <child caption="Usages" excluded="false" isresult="false" results_section="true">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
+                <role name="results" />
+                <child caption="rules which affect node's type" excluded="false" isresult="false" results_section="true" category="rules which affect node's type" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="Drools" excluded="false" isresult="false" results_section="true" module_ref="8736d226-8431-488d-a836-b0056dc551c7(Drools)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="Drools.typesystem" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="typeof_Pattern" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:17cc9c73-1d83-479f-bcfd-fab2287928c3(Drools.typesystem)/87898470604543464" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="typeof" info="(role: normalType in: ( expr ))" excluded="false" isresult="true" results_section="true" nodePtr="r:17cc9c73-1d83-479f-bcfd-fab2287928c3(Drools.typesystem)/87898470604545204">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:17cc9c73-1d83-479f-bcfd-fab2287928c3(Drools.typesystem)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+    </tabs>
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" all file added" />
+    <option name="LAST_COMMIT_MESSAGE" value=" all file added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="374" y="23" key="#MPSPropertiesConfigurable" timestamp="1587470317696">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="374" y="0" key="#MPSPropertiesConfigurable/0.0.1440.900@0.0.1440.900" timestamp="1586358514065" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.830@0.23.1440.830" timestamp="1586442274819" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.832@0.23.1440.832" timestamp="1587470317696" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.837@0.23.1440.837" timestamp="1585910970849" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.838@0.23.1440.838" timestamp="1586008623455" />
+    <state x="489" y="262" key="#MPSPropertiesConfigurable/0.23.1440.839@0.23.1440.839" timestamp="1585996034873" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.841@0.23.1440.841" timestamp="1586271313510" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.842@0.23.1440.842" timestamp="1586292026512" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.843@0.23.1440.843" timestamp="1586183865104" />
+    <state x="317" y="70" key="#Notifications" timestamp="1587489943305">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="317" y="70" key="#Notifications/0.23.1440.830@0.23.1440.830" timestamp="1586359709891" />
+    <state x="317" y="70" key="#Notifications/0.23.1440.838@0.23.1440.838" timestamp="1587489943305" />
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587488580974">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="369" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587483060466" />
+    <state x="369" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.830@0.23.1440.830" timestamp="1587393632007" />
+    <state x="369" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.832@0.23.1440.832" timestamp="1587457975960" />
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1586872391435" />
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.838@0.23.1440.838" timestamp="1587488580974" />
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.839@0.23.1440.839" timestamp="1585947216428" />
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.840@0.23.1440.840" timestamp="1585762569565" />
+    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1587490183044">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.837@0.23.1440.837" timestamp="1585911464342" />
+    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.838@0.23.1440.838" timestamp="1587490183044" />
+    <state x="592" y="313" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.839@0.23.1440.839" timestamp="1585761124148" />
+    <state x="243" y="170" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1587470255932">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="243" y="170" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.830@0.23.1440.830" timestamp="1586356489808" />
+    <state x="243" y="170" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.832@0.23.1440.832" timestamp="1587470255932" />
+    <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.837@0.23.1440.837" timestamp="1586872268982" />
+    <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.838@0.23.1440.838" timestamp="1585912965164" />
+    <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.839@0.23.1440.839" timestamp="1585922900706" />
+    <state x="243" y="172" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.843@0.23.1440.843" timestamp="1586184679216" />
+    <state x="508" y="343" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1587490615402">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="508" y="343" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.23.1440.838@0.23.1440.838" timestamp="1587490615402" />
+    <state x="529" y="246" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1587482569287">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="529" y="246" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587482569287" />
+    <state x="529" y="250" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.832@0.23.1440.832" timestamp="1587469936924" />
+    <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.838@0.23.1440.838" timestamp="1585925903880" />
+    <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.839@0.23.1440.839" timestamp="1585946569089" />
+    <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.841@0.23.1440.841" timestamp="1586269770168" />
+    <state x="529" y="253" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.843@0.23.1440.843" timestamp="1586183627399" />
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1587489778241">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1587489778241" />
+    <state x="372" y="171" key="IDE.errors.dialog" timestamp="1587490029611">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="372" y="159" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1587481644521" />
+    <state x="372" y="169" key="IDE.errors.dialog/0.23.1440.830@0.23.1440.830" timestamp="1586356602083" />
+    <state x="372" y="171" key="IDE.errors.dialog/0.23.1440.838@0.23.1440.838" timestamp="1587490029611" />
+    <state x="372" y="171" key="IDE.errors.dialog/0.23.1440.839@0.23.1440.839" timestamp="1586019030485" />
+    <state x="378" y="156" key="VCS.ChangeListViewerDialog" timestamp="1587489976745">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="378" y="156" key="VCS.ChangeListViewerDialog/0.23.1440.838@0.23.1440.838" timestamp="1587489976745" />
+    <state x="408" y="184" key="Vcs.Push.Dialog.v2" timestamp="1587490141312">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="408" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1587490141312" />
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1587474870905">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587474870905" />
+    <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1587455701111" />
+    <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1587459985613" />
+    <state x="503" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587490056213">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="503" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.838@0.23.1440.838" timestamp="1587490056213" />
+    <state x="487" y="350" key="git4idea.ui.GitResetDialog" timestamp="1587489978923">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="487" y="350" key="git4idea.ui.GitResetDialog/0.23.1440.838@0.23.1440.838" timestamp="1587489978923" />
+    <state x="749" y="361" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1587470315589">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="749" y="365" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585847655953" />
+    <state x="749" y="360" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1586425337004" />
+    <state x="749" y="361" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.832@0.23.1440.832" timestamp="1587470315589" />
+    <state x="749" y="362" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.837@0.23.1440.837" timestamp="1585910935450" />
+    <state x="749" y="363" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.838@0.23.1440.838" timestamp="1586008614515" />
+    <state x="749" y="363" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.839@0.23.1440.839" timestamp="1585841920498" />
+    <state x="465" y="293" width="817" height="504" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog" timestamp="1587487977789">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="465" y="293" width="817" height="504" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.0.1440.900@0.0.1440.900" timestamp="1587487977789" />
+    <state x="363" y="330" width="817" height="475" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.23.1440.830@0.23.1440.830" timestamp="1587393374790" />
+    <state x="0" y="419" key="jetbrains.mps.typesystem.uiActions.SupertypesTree.MyBaseNodeDialog" timestamp="1587390473735">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="0" y="419" key="jetbrains.mps.typesystem.uiActions.SupertypesTree.MyBaseNodeDialog/0.23.1440.830@0.23.1440.830" timestamp="1587390473735" />
+    <state x="440" y="330" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1587470299064">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="440" y="330" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.23.1440.832@0.23.1440.832" timestamp="1587470299064" />
+    <state x="440" y="333" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.23.1440.839@0.23.1440.839" timestamp="1585841821662" />
+  </component>
+</project>
