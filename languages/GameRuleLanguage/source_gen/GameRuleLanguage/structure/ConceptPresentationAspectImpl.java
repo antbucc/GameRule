@@ -12,6 +12,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Action;
   private ConceptPresentation props_Condition;
   private ConceptPresentation props_GameRule;
+  private ConceptPresentation props_InsertAction;
 
   @Override
   @Nullable
@@ -21,7 +22,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Action:
         if (props_Action == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Action");
           props_Action = cpb.create();
         }
         return props_Action;
@@ -39,6 +39,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_GameRule = cpb.create();
         }
         return props_GameRule;
+      case LanguageConceptSwitch.InsertAction:
+        if (props_InsertAction == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("insert");
+          props_InsertAction = cpb.create();
+        }
+        return props_InsertAction;
     }
     return null;
   }

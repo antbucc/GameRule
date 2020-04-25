@@ -16,6 +16,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAction = createDescriptorForAction();
   /*package*/ final ConceptDescriptor myConceptCondition = createDescriptorForCondition();
   /*package*/ final ConceptDescriptor myConceptGameRule = createDescriptorForGameRule();
+  /*package*/ final ConceptDescriptor myConceptInsertAction = createDescriptorForInsertAction();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -31,7 +32,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptCondition, myConceptGameRule);
+    return Arrays.asList(myConceptAction, myConceptCondition, myConceptGameRule, myConceptInsertAction);
   }
 
   @Override
@@ -44,6 +45,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptCondition;
       case LanguageConceptSwitch.GameRule:
         return myConceptGameRule;
+      case LanguageConceptSwitch.InsertAction:
+        return myConceptInsertAction;
       default:
         return null;
     }
@@ -60,7 +63,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   private static ConceptDescriptor createDescriptorForAction() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("GameRuleLanguage", "Action", 0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8d9L);
-    b.class_(false, false, false);
+    b.class_(false, true, false);
     b.origin("r:06154292-2ec1-4729-9e74-188f8af946cf(GameRuleLanguage.structure)/5909584729281263833");
     b.version(2);
     return b.create();
@@ -85,6 +88,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("conditions", 0x520310003ee1f8c8L).target(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8cdL).optional(true).ordered(true).multiple(true).origin("5909584729281263816").done();
     b.aggregate("actions", 0x520310003ee1f911L).target(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8d9L).optional(true).ordered(true).multiple(true).origin("5909584729281263889").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForInsertAction() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("GameRuleLanguage", "InsertAction", 0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x69bb4663c58e4d37L);
+    b.class_(false, false, false);
+    b.super_("GameRuleLanguage.structure.Action", 0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8d9L);
+    b.origin("r:06154292-2ec1-4729-9e74-188f8af946cf(GameRuleLanguage.structure)/7618760588957470007");
+    b.version(2);
+    b.aggregate("value", 0x69bb4663c58e4d38L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("7618760588957470008").done();
+    b.alias("insert");
     return b.create();
   }
 }

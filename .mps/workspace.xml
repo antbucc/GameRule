@@ -7,67 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e982b053-c182-4b18-aca6-e48a0742e586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/CustomData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/GameConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/InputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/PointConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/BehaviorAspectDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/Condition__BehaviorDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_SubstituteMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/GameRule_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/GameRule_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Style_StyleSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/typeof_Condition_InferenceRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/InsertAction_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/InsertAction_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/GameRuleLanguage.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/GameRuleLanguage.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/behavior/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/LanguageConceptSwitch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/StructureAspectDescriptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.typesystem.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/GameRuleLanguage.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/GameRuleLanguage.sandbox.msd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/GameRule_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/GameRule_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/LanguageConceptSwitch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/StructureAspectDescriptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,12 +206,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
               <option name="myItemType" value="" />
@@ -269,32 +228,34 @@
               <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GameRuleLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6f1627d9-7978-4f64-b802-1c377ecc99a8(GameRuleLanguage.editor) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,35 +273,9 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameRuleLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5909584729281315953" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -390,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587490658134</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" all file added">
+      <created>1587830870544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587830870544</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -523,10 +465,11 @@
     <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.839@0.23.1440.839" timestamp="1585946569089" />
     <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.841@0.23.1440.841" timestamp="1586269770168" />
     <state x="529" y="253" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.843@0.23.1440.843" timestamp="1586183627399" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1587490657979">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1587830870162">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1587490657979" />
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.840@0.23.1440.840" timestamp="1587830870162" />
     <state x="372" y="171" key="IDE.errors.dialog" timestamp="1587829753885">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
@@ -539,10 +482,11 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="378" y="156" key="VCS.ChangeListViewerDialog/0.23.1440.838@0.23.1440.838" timestamp="1587489976745" />
-    <state x="408" y="184" key="Vcs.Push.Dialog.v2" timestamp="1587490671475">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="408" y="184" key="Vcs.Push.Dialog.v2" timestamp="1587830881492">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="408" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1587490671475" />
+    <state x="408" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.840@0.23.1440.840" timestamp="1587830881492" />
     <state x="374" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1587829740746">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
@@ -550,10 +494,11 @@
     <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1587455701111" />
     <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1587459985613" />
     <state x="374" y="288" key="com.intellij.ide.util.TipDialog/0.23.1440.840@0.23.1440.840" timestamp="1587829740746" />
-    <state x="503" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587490056213">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="503" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587830947694">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="503" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.838@0.23.1440.838" timestamp="1587490056213" />
+    <state x="503" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.840@0.23.1440.840" timestamp="1587830947694" />
     <state x="487" y="350" key="git4idea.ui.GitResetDialog" timestamp="1587489978923">
       <screen x="0" y="23" width="1440" height="838" />
     </state>

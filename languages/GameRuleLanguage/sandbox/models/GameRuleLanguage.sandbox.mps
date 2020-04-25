@@ -203,15 +203,16 @@
       <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
     </language>
     <language id="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2" name="GameRuleLanguage">
+      <concept id="7618760588957470007" name="GameRuleLanguage.structure.InsertAction" flags="ng" index="2GdgHk">
+        <child id="7618760588957470008" name="value" index="2GdgHr" />
+      </concept>
       <concept id="5909584729281263806" name="GameRuleLanguage.structure.GameRule" flags="ng" index="1GSIyY">
         <child id="5909584729281263816" name="conditions" index="1GSIz8" />
         <child id="5909584729281263889" name="actions" index="1GSI$h" />
       </concept>
       <concept id="5909584729281263821" name="GameRuleLanguage.structure.Condition" flags="ng" index="1GSIzd">
         <reference id="5909584729281322964" name="patternType" index="1GSsZk" />
-        <child id="5909584729281322909" name="constraints" index="1GSsYt" />
       </concept>
-      <concept id="5909584729281263833" name="GameRuleLanguage.structure.Action" flags="ng" index="1GSIzp" />
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
@@ -255,27 +256,14 @@
   </registry>
   <node concept="1GSIyY" id="583400YSGhL">
     <property role="TrG5h" value="test" />
-    <node concept="1GSIzd" id="583400YSGhM" role="1GSIz8">
-      <property role="TrG5h" value="dffds" />
-      <ref role="1GSsZk" node="583400YVjmK" resolve="Action" />
-      <node concept="3clFbC" id="6AVhAf5v58e" role="1GSsYt">
-        <node concept="1rXfSq" id="6AVhAf5v56d" role="3uHU7B">
-          <ref role="37wK5l" node="583400YVjn2" resolve="getId" />
-        </node>
-        <node concept="Xl_RD" id="6AVhAf5v57a" role="3uHU7w">
-          <property role="Xl_RC" value="moves" />
-        </node>
-      </node>
-      <node concept="3clFbC" id="6AVhAf5vp7J" role="1GSsYt">
-        <node concept="3cmrfG" id="6AVhAf5vp8x" role="3uHU7w">
-          <property role="3cmrfH" value="3" />
-        </node>
-        <node concept="1rXfSq" id="6AVhAf5vp74" role="3uHU7B">
-          <ref role="37wK5l" node="583400YVjn2" resolve="getId" />
-        </node>
+    <node concept="2GdgHk" id="6AVhAf5BGqV" role="1GSI$h">
+      <node concept="Xl_RD" id="6AVhAf5BGr1" role="2GdgHr">
+        <property role="Xl_RC" value="sdsfds" />
       </node>
     </node>
-    <node concept="1GSIzp" id="6AVhAf5v58F" role="1GSI$h" />
+    <node concept="1GSIzd" id="6AVhAf5Ab$V" role="1GSIz8">
+      <ref role="1GSsZk" node="583400YVjmK" resolve="Action" />
+    </node>
   </node>
   <node concept="312cEu" id="583400YVjmK">
     <property role="TrG5h" value="Action" />

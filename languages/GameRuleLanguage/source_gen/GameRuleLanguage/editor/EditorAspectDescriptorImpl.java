@@ -22,6 +22,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
         return Collections.<ConceptEditor>singletonList(new Condition_Editor());
       case 1:
         return Collections.<ConceptEditor>singletonList(new GameRule_Editor());
+      case 2:
+        return Collections.<ConceptEditor>singletonList(new InsertAction_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -40,6 +42,6 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8cdL), MetaIdFactory.conceptId(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8beL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8cdL), MetaIdFactory.conceptId(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8beL), MetaIdFactory.conceptId(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x69bb4663c58e4d37L)).seal();
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8cdL)).seal();
 }
