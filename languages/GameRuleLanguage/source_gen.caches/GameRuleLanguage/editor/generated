@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-4pombuz4eqsn5dy1su2zq52ig0enje7" />
+<product version="3" modelHash="-ej9dj86c4wsi88s9tougzgy6sp5qs2d">
+  <files names="Condition_Editor.java:Condition_EditorBuilder_a.java:Condition_SubstituteMenu.java:EditorAspectDescriptorImpl.java:GameRule_Editor.java:GameRule_EditorBuilder_a.java:Style_StyleSheet.java" />
+</product>
 

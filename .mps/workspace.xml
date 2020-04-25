@@ -6,7 +6,69 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e982b053-c182-4b18-aca6-e48a0742e586" name="Default Changelist" comment="" />
+    <list default="true" id="e982b053-c182-4b18-aca6-e48a0742e586" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/CustomData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/GameConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/InputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/PointConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/BehaviorAspectDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/Condition__BehaviorDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Condition_SubstituteMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/GameRule_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/GameRule_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/Style_StyleSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/typeof_Condition_InferenceRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/GameRuleLanguage.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/GameRuleLanguage.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/LanguageConceptSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/typesystem/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/GameRuleLanguage.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/GameRuleLanguage.sandbox.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen/GameRuleLanguage/sandbox/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/typesystem/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/LanguageConceptSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/TypesystemDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/typesystem/trace.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +80,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="43e0babe-df96-4fcb-bff1-a507b6b5b801/r:25877b3f-1c7d-4028-bd24-a72a995048c9(TempModule43e0babe-df96-4fcb-bff1-a507b6b5b801/ConsoleModel_14988971554200)">
+            <model ref="eab7d692-052e-4060-9fc9-715696db17d8/r:b9eeb542-b4d7-451e-b3fb-964c2a77ac9d(TempModuleeab7d692-052e-4060-9fc9-715696db17d8/ConsoleModel_145689680682394)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -38,11 +100,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="583400YAdE2">
-                <node concept="3balQm" id="583400YAdE3" role="aymYE" />
-                <node concept="2Clz$F" id="583400YAdE4" role="aymYO" />
-                <node concept="2_V_lH" id="583400YAdE5" role="1PhJh3">
-                  <ref role="2_V_lI" node="583400YAdE4" resolve="CommandHolder" />
+              <node concept="aymSD" id="6AVhAf5pDPd">
+                <node concept="3balQm" id="6AVhAf5pDPe" role="aymYE" />
+                <node concept="2Clz$F" id="6AVhAf5pDPf" role="aymYO" />
+                <node concept="2_V_lH" id="6AVhAf5pDPg" role="1PhJh3">
+                  <ref role="2_V_lI" node="6AVhAf5pDPf" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -176,23 +238,109 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10728a21-9d50-4001-b512-028bca3b6566(Drools.sandbox@transient37)" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10728a21-9d50-4001-b512-028bca3b6566(Drools.sandbox@transient37)" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10728a21-9d50-4001-b512-028bca3b6566/i:10001000(Drools.sandbox@transient37/Drools.sandbox@0) in null" />
+              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameRuleLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameRuleLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:6f1627d9-7978-4f64-b802-1c377ecc99a8(GameRuleLanguage.editor) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:06154292-2ec1-4729-9e74-188f8af946cf(GameRuleLanguage.structure) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameRuleLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5909584729281315953" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -235,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587489778496</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" all file added">
+      <created>1587490658134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587490658134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -313,14 +468,14 @@
     <option name="LAST_COMMIT_MESSAGE" value=" all file added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="23" key="#MPSPropertiesConfigurable" timestamp="1587470317696">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable" timestamp="1587548571546">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="374" y="0" key="#MPSPropertiesConfigurable/0.0.1440.900@0.0.1440.900" timestamp="1586358514065" />
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.830@0.23.1440.830" timestamp="1586442274819" />
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.832@0.23.1440.832" timestamp="1587470317696" />
-    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.837@0.23.1440.837" timestamp="1585910970849" />
-    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.838@0.23.1440.838" timestamp="1586008623455" />
+    <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.837@0.23.1440.837" timestamp="1587548571546" />
+    <state x="473" y="62" key="#MPSPropertiesConfigurable/0.23.1440.838@0.23.1440.838" timestamp="1587494674540" />
     <state x="489" y="262" key="#MPSPropertiesConfigurable/0.23.1440.839@0.23.1440.839" timestamp="1585996034873" />
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.841@0.23.1440.841" timestamp="1586271313510" />
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.842@0.23.1440.842" timestamp="1586292026512" />
@@ -330,69 +485,71 @@
     </state>
     <state x="317" y="70" key="#Notifications/0.23.1440.830@0.23.1440.830" timestamp="1586359709891" />
     <state x="317" y="70" key="#Notifications/0.23.1440.838@0.23.1440.838" timestamp="1587489943305" />
-    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587488580974">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587829832074">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state x="369" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587483060466" />
+    <state x="369" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587547871353" />
     <state x="369" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.830@0.23.1440.830" timestamp="1587393632007" />
     <state x="369" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.832@0.23.1440.832" timestamp="1587457975960" />
     <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1586872391435" />
-    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.838@0.23.1440.838" timestamp="1587488580974" />
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.838@0.23.1440.838" timestamp="1587494980326" />
     <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.839@0.23.1440.839" timestamp="1585947216428" />
-    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.840@0.23.1440.840" timestamp="1585762569565" />
-    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1587490183044">
+    <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.840@0.23.1440.840" timestamp="1587829832074" />
+    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1587494430710">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.837@0.23.1440.837" timestamp="1585911464342" />
-    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.838@0.23.1440.838" timestamp="1587490183044" />
+    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.838@0.23.1440.838" timestamp="1587494430710" />
     <state x="592" y="313" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.839@0.23.1440.839" timestamp="1585761124148" />
-    <state x="243" y="170" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1587470255932">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1587493769181">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="243" y="170" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.830@0.23.1440.830" timestamp="1586356489808" />
     <state x="243" y="170" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.832@0.23.1440.832" timestamp="1587470255932" />
     <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.837@0.23.1440.837" timestamp="1586872268982" />
-    <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.838@0.23.1440.838" timestamp="1585912965164" />
+    <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.838@0.23.1440.838" timestamp="1587493769181" />
     <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.839@0.23.1440.839" timestamp="1585922900706" />
     <state x="243" y="172" key="#jetbrains.mps.ide.util.NodesChooser/0.23.1440.843@0.23.1440.843" timestamp="1586184679216" />
     <state x="508" y="343" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1587490615402">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="508" y="343" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.23.1440.838@0.23.1440.838" timestamp="1587490615402" />
-    <state x="529" y="246" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1587482569287">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1587547323339">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="529" y="246" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587482569287" />
     <state x="529" y="250" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.832@0.23.1440.832" timestamp="1587469936924" />
-    <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.838@0.23.1440.838" timestamp="1585925903880" />
+    <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.838@0.23.1440.838" timestamp="1587547323339" />
     <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.839@0.23.1440.839" timestamp="1585946569089" />
     <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.841@0.23.1440.841" timestamp="1586269770168" />
     <state x="529" y="253" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.843@0.23.1440.843" timestamp="1586183627399" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1587489778241">
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1587490657979">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1587489778241" />
-    <state x="372" y="171" key="IDE.errors.dialog" timestamp="1587490029611">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1587490657979" />
+    <state x="372" y="171" key="IDE.errors.dialog" timestamp="1587829753885">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="372" y="159" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1587481644521" />
     <state x="372" y="169" key="IDE.errors.dialog/0.23.1440.830@0.23.1440.830" timestamp="1586356602083" />
     <state x="372" y="171" key="IDE.errors.dialog/0.23.1440.838@0.23.1440.838" timestamp="1587490029611" />
     <state x="372" y="171" key="IDE.errors.dialog/0.23.1440.839@0.23.1440.839" timestamp="1586019030485" />
+    <state x="372" y="171" key="IDE.errors.dialog/0.23.1440.840@0.23.1440.840" timestamp="1587829753885" />
     <state x="378" y="156" key="VCS.ChangeListViewerDialog" timestamp="1587489976745">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="378" y="156" key="VCS.ChangeListViewerDialog/0.23.1440.838@0.23.1440.838" timestamp="1587489976745" />
-    <state x="408" y="184" key="Vcs.Push.Dialog.v2" timestamp="1587490141312">
+    <state x="408" y="184" key="Vcs.Push.Dialog.v2" timestamp="1587490671475">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state x="408" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1587490141312" />
-    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1587474870905">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="408" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1587490671475" />
+    <state x="374" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1587829740746">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587474870905" />
     <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1587455701111" />
     <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1587459985613" />
+    <state x="374" y="288" key="com.intellij.ide.util.TipDialog/0.23.1440.840@0.23.1440.840" timestamp="1587829740746" />
     <state x="503" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587490056213">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
@@ -401,14 +558,18 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="487" y="350" key="git4idea.ui.GitResetDialog/0.23.1440.838@0.23.1440.838" timestamp="1587489978923" />
-    <state x="749" y="361" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1587470315589">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="668" y="392" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog" timestamp="1587494652317">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="668" y="392" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog/0.23.1440.838@0.23.1440.838" timestamp="1587494652317" />
+    <state x="749" y="362" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1587548544475">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="749" y="365" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585847655953" />
     <state x="749" y="360" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1586425337004" />
     <state x="749" y="361" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.832@0.23.1440.832" timestamp="1587470315589" />
-    <state x="749" y="362" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.837@0.23.1440.837" timestamp="1585910935450" />
-    <state x="749" y="363" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.838@0.23.1440.838" timestamp="1586008614515" />
+    <state x="749" y="362" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.837@0.23.1440.837" timestamp="1587548544475" />
+    <state x="749" y="363" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.838@0.23.1440.838" timestamp="1587494572119" />
     <state x="749" y="363" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.839@0.23.1440.839" timestamp="1585841920498" />
     <state x="465" y="293" width="817" height="504" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog" timestamp="1587487977789">
       <screen x="0" y="0" width="1440" height="900" />
@@ -419,10 +580,11 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="0" y="419" key="jetbrains.mps.typesystem.uiActions.SupertypesTree.MyBaseNodeDialog/0.23.1440.830@0.23.1440.830" timestamp="1587390473735" />
-    <state x="440" y="330" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1587470299064">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="440" y="332" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1587493413980">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="440" y="330" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.23.1440.832@0.23.1440.832" timestamp="1587470299064" />
+    <state x="440" y="332" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.23.1440.838@0.23.1440.838" timestamp="1587493413980" />
     <state x="440" y="333" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.23.1440.839@0.23.1440.839" timestamp="1585841821662" />
   </component>
 </project>

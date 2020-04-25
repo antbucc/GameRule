@@ -1,3 +1,795 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2" />
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1178893518978:jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox)/5909584729282000304">
+    <file name="Action.java">
+      <node id="5909584729282000306" at="7,0,8,0" concept="2" trace="id" />
+      <node id="5909584729282000315" at="8,28,9,17" concept="1" />
+      <node id="5909584729282000324" at="11,25,12,14" concept="7" />
+      <node id="5909584729282000332" at="14,32,15,17" concept="1" />
+      <node id="5909584729282000310" at="8,0,11,0" concept="0" trace="Action#(Ljava/lang/String;)V" />
+      <node id="5909584729282000322" at="11,0,14,0" concept="5" trace="getId#()Ljava/lang/String;" />
+      <node id="5909584729282000328" at="14,0,17,0" concept="5" trace="setId#(Ljava/lang/String;)V" />
+      <scope id="5909584729282000314" at="8,28,9,17" />
+      <scope id="5909584729282000323" at="11,25,12,14" />
+      <scope id="5909584729282000331" at="14,32,15,17" />
+      <scope id="5909584729282000310" at="8,0,11,0">
+        <var name="id" id="5909584729282000312" />
+      </scope>
+      <scope id="5909584729282000322" at="11,0,14,0" />
+      <scope id="5909584729282000328" at="14,0,17,0">
+        <var name="id" id="5909584729282000329" />
+      </scope>
+      <unit id="5909584729282000304" at="6,0,18,0" name="GameRuleLanguage.sandbox.Action" />
+    </file>
+  </root>
+  <root nodeRef="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox)/5909584729282000342">
+    <file name="PointConcept.java">
+      <node id="5909584729282001466" at="18,0,19,0" concept="2" trace="score" />
+      <node id="5909584729283943181" at="20,0,21,0" concept="2" trace="periods" />
+      <node id="7618760588955745820" at="21,0,22,0" concept="2" trace="PERIOD_KEY_FORMAT" />
+      <node id="5909584729282001486" at="22,0,23,0" concept="2" trace="executionMoment" />
+      <node id="5909584729282002537" at="23,49,24,16" concept="9" />
+      <node id="5909584729282001498" at="24,16,25,29" concept="1" />
+      <node id="5909584729282002539" at="28,36,29,16" concept="9" />
+      <node id="5909584729282002541" at="32,54,33,21" concept="9" />
+      <node id="5909584729282001528" at="34,28,35,49" concept="6" />
+      <node id="5909584729282002160" at="35,49,36,71" concept="8" />
+      <node id="5909584729282002173" at="36,71,37,15" concept="8" />
+      <node id="5909584729282002178" at="37,15,38,24" concept="8" />
+      <node id="5909584729282002185" at="38,24,39,38" concept="8" />
+      <node id="5909584729282001544" at="41,43,42,38" concept="1" />
+      <node id="5909584729282001556" at="44,44,45,55" concept="1" />
+      <node id="5909584729282001566" at="47,7,48,80" concept="6" />
+      <node id="5909584729282001583" at="49,25,50,65" concept="6" />
+      <node id="5909584729282001592" at="51,57,52,98" concept="1" />
+      <node id="5909584729282001614" at="58,46,59,35" concept="7" />
+      <node id="5909584729282001621" at="62,51,63,19" concept="7" />
+      <node id="5909584729282001643" at="69,28,70,17" concept="7" />
+      <node id="5909584729282001651" at="73,38,74,47" concept="1" />
+      <node id="5909584729282001658" at="74,47,75,23" concept="1" />
+      <node id="5909584729282001670" at="78,41,79,34" concept="1" />
+      <node id="5909584729282001673" at="79,34,80,24" concept="1" />
+      <node id="5909584729282001679" at="80,24,81,22" concept="7" />
+      <node id="5909584729282001692" at="85,47,86,46" concept="1" />
+      <node id="5909584729282001711" at="90,69,91,69" concept="6" />
+      <node id="5909584729282001717" at="91,69,92,31" concept="1" />
+      <node id="5909584729282001735" at="96,45,97,38" concept="1" />
+      <node id="5909584729282001752" at="101,79,102,74" concept="6" />
+      <node id="5909584729282001759" at="102,74,103,31" concept="1" />
+      <node id="5909584729282001776" at="106,83,107,79" concept="6" />
+      <node id="5909584729282001783" at="107,79,108,31" concept="1" />
+      <node id="5909584729282001793" at="111,47,112,31" concept="1" />
+      <node id="5909584729285933398" at="115,56,116,16" concept="7" />
+      <node id="5909584729282001816" at="119,64,120,107" concept="7" />
+      <node id="5909584729285933347" at="123,67,124,16" concept="7" />
+      <node id="5909584729282001845" at="127,75,128,111" concept="7" />
+      <node id="5909584729282001861" at="131,65,132,74" concept="6" />
+      <node id="5909584729282001865" at="132,74,133,58" concept="7" />
+      <node id="5909584729282001879" at="136,76,137,65" concept="6" />
+      <node id="5909584729282001883" at="137,65,138,95" concept="7" />
+      <node id="5909584729282001903" at="141,70,142,106" concept="7" />
+      <node id="5909584729282001921" at="145,81,146,115" concept="7" />
+      <node id="5909584729282001938" at="149,64,150,72" concept="6" />
+      <node id="5909584729282001942" at="150,72,151,55" concept="7" />
+      <node id="5909584729282001959" at="154,76,155,24" concept="6" />
+      <node id="5909584729282001963" at="155,24,156,53" concept="6" />
+      <node id="5909584729282001974" at="157,20,158,83" concept="6" />
+      <node id="5909584729282001979" at="158,83,159,62" concept="1" />
+      <node id="5909584729282001988" at="160,5,161,18" concept="7" />
+      <node id="5909584729282001999" at="174,87,175,33" concept="6" />
+      <node id="5909584729282002059" at="175,33,176,18" concept="7" />
+      <node id="5909584729282000346" at="179,0,180,0" concept="5" trace="getStart#()Ljava/util/Date;" />
+      <node id="5909584729282000350" at="180,0,181,0" concept="5" trace="getEnd#()Ljava/util/Optional;" />
+      <node id="5909584729282000355" at="181,0,182,0" concept="5" trace="getPeriod#()J" />
+      <node id="5909584729282000359" at="182,0,183,0" concept="5" trace="getIdentifier#()Ljava/lang/String;" />
+      <node id="5909584729282000363" at="183,0,184,0" concept="5" trace="getCapacity#()I" />
+      <node id="5909584729282000369" at="186,0,187,0" concept="5" trace="getScore#()Ljava/lang/Double;" />
+      <node id="5909584729282000373" at="187,0,188,0" concept="5" trace="getStart#()J" />
+      <node id="5909584729282000377" at="188,0,189,0" concept="5" trace="getEnd#()J" />
+      <node id="5909584729282000381" at="189,0,190,0" concept="5" trace="getIndex#()I" />
+      <node id="5909584729282000388" at="192,0,193,0" concept="2" trace="start" />
+      <node id="5909584729282000392" at="193,0,194,0" concept="2" trace="end" />
+      <node id="5909584729282000397" at="194,0,195,0" concept="2" trace="period" />
+      <node id="5909584729282000401" at="195,0,196,0" concept="2" trace="identifier" />
+      <node id="5909584729282000405" at="196,0,197,0" concept="2" trace="capacity" />
+      <node id="5909584729282000409" at="197,0,198,0" concept="2" trace="instances" />
+      <node id="5909584729282000433" at="198,71,199,25" concept="1" />
+      <node id="5909584729282000439" at="199,25,200,34" concept="1" />
+      <node id="5909584729282000445" at="200,34,201,27" concept="1" />
+      <node id="5909584729282000451" at="201,27,202,35" concept="1" />
+      <node id="5909584729282003035" at="204,85,205,38" concept="10" />
+      <node id="5909584729282000469" at="205,38,206,31" concept="1" />
+      <node id="5909584729282000491" at="208,81,209,25" concept="1" />
+      <node id="5909584729282000497" at="209,25,210,42" concept="1" />
+      <node id="5909584729282000504" at="210,42,211,27" concept="1" />
+      <node id="5909584729282000510" at="211,27,212,35" concept="1" />
+      <node id="5909584729282003045" at="214,95,215,43" concept="10" />
+      <node id="5909584729282000530" at="215,43,216,31" concept="1" />
+      <node id="5909584729282000556" at="219,30,220,51" concept="6" />
+      <node id="5909584729282000566" at="221,33,222,46" concept="1" />
+      <node id="5909584729282000574" at="223,9,224,47" concept="6" />
+      <node id="5909584729282000578" at="224,47,225,89" concept="1" />
+      <node id="5909584729282000592" at="225,89,226,53" concept="6" />
+      <node id="5909584729282000608" at="228,44,229,40" concept="1" />
+      <node id="5909584729282000620" at="231,47,232,72" concept="1" />
+      <node id="5909584729282000629" at="234,9,235,58" concept="1" />
+      <node id="5909584729282000637" at="235,58,236,57" concept="6" />
+      <node id="5909584729282000647" at="237,36,238,41" concept="1" />
+      <node id="5909584729282000654" at="239,9,240,119" concept="6" />
+      <node id="5909584729282000675" at="241,36,242,89" concept="6" />
+      <node id="5909584729282000703" at="248,53,249,47" concept="7" />
+      <node id="5909584729282000713" at="252,11,253,47" concept="7" />
+      <node id="5909584729282000722" at="254,44,255,19" concept="7" />
+      <node id="5909584729282000734" at="259,11,260,51" concept="7" />
+      <node id="5909584729282000744" at="261,40,262,19" concept="7" />
+      <node id="5909584729282000759" at="266,11,267,63" concept="6" />
+      <node id="5909584729282000763" at="267,63,268,45" concept="7" />
+      <node id="5909584729282000771" at="269,44,270,19" concept="7" />
+      <node id="5909584729283336590" at="273,62,274,18" concept="7" />
+      <node id="5909584729282001052" at="276,28,277,19" concept="7" />
+      <node id="5909584729282001060" at="279,38,280,25" concept="1" />
+      <node id="5909584729282001070" at="282,29,283,20" concept="7" />
+      <node id="5909584729282001078" at="285,40,286,27" concept="1" />
+      <node id="5909584729282001088" at="288,70,289,23" concept="7" />
+      <node id="5909584729282001100" at="291,84,292,33" concept="1" />
+      <node id="5909584729282001112" at="294,50,295,35" concept="1" />
+      <node id="5909584729282001122" at="297,35,298,24" concept="7" />
+      <node id="5909584729282001129" at="301,30,302,22" concept="7" />
+      <node id="5909584729282001137" at="304,42,305,38" concept="7" />
+      <node id="5909584729282001147" at="307,36,308,17" concept="7" />
+      <node id="5909584729282001157" at="310,44,311,21" concept="1" />
+      <node id="5909584729282001168" at="315,0,316,0" concept="2" trace="score" />
+      <node id="5909584729282001173" at="316,0,317,0" concept="2" trace="start" />
+      <node id="5909584729282001177" at="317,0,318,0" concept="2" trace="end" />
+      <node id="5909584729282001181" at="318,0,319,0" concept="2" trace="index" />
+      <node id="5909584729282001192" at="319,53,320,25" concept="1" />
+      <node id="5909584729282001198" at="320,25,321,21" concept="1" />
+      <node id="5909584729282001213" at="323,62,324,49" concept="6" />
+      <node id="5909584729282001218" at="324,49,325,49" concept="6" />
+      <node id="5909584729282001223" at="325,49,326,45" concept="6" />
+      <node id="5909584729282001228" at="326,45,327,49" concept="6" />
+      <node id="5909584729282001244" at="329,43,330,38" concept="1" />
+      <node id="5909584729282001256" at="332,44,333,70" concept="1" />
+      <node id="5909584729282001277" at="337,41,338,36" concept="1" />
+      <node id="5909584729282001289" at="340,44,341,68" concept="1" />
+      <node id="5909584729282001310" at="345,39,346,32" concept="1" />
+      <node id="5909584729282001322" at="348,42,349,64" concept="1" />
+      <node id="5909584729282001343" at="353,44,354,56" concept="1" />
+      <node id="5909584729282001355" at="358,47,359,28" concept="1" />
+      <node id="5909584729282001361" at="359,28,360,19" concept="7" />
+      <node id="5909584729282001367" at="362,30,363,19" concept="7" />
+      <node id="5909584729282001375" at="365,40,366,25" concept="1" />
+      <node id="5909584729282001385" at="368,28,369,19" concept="7" />
+      <node id="5909584729282001393" at="371,38,372,25" concept="1" />
+      <node id="5909584729282001403" at="374,26,375,17" concept="7" />
+      <node id="5909584729282001411" at="377,34,378,21" concept="1" />
+      <node id="5909584729282001423" at="381,30,382,70" concept="6" />
+      <node id="5909584729282001427" at="382,70,383,174" concept="7" />
+      <node id="5909584729282001448" at="385,27,386,19" concept="7" />
+      <node id="5909584729282001456" at="388,37,389,25" concept="1" />
+      <node id="5909584729282002066" at="392,36,393,27" concept="7" />
+      <node id="5909584729282002074" at="396,56,397,43" concept="1" />
+      <node id="5909584729282002094" at="402,38,403,50" concept="6" />
+      <node id="5909584729282002099" at="403,50,404,62" concept="7" />
+      <node id="5909584729282002106" at="405,5,406,17" concept="7" />
+      <node id="5909584729283105263" at="410,25,411,13" concept="7" />
+      <node id="5909584729282002127" at="415,28,416,63" concept="7" />
+      <node id="5909584729282001627" at="66,0,68,0" concept="5" trace="setPeriods#(Ljava/util/Map;)V" />
+      <node id="5909584729282000683" at="242,89,244,11" concept="3" />
+      <node id="5909584729282001505" at="28,0,31,0" concept="0" trace="PointConcept#(Ljava/lang/String;)V" />
+      <node id="5909584729282001538" at="40,31,43,9" concept="4" />
+      <node id="5909584729282001550" at="43,9,46,9" concept="4" />
+      <node id="5909584729282001589" at="50,65,53,9" concept="3" />
+      <node id="5909584729282001610" at="58,0,61,0" concept="5" trace="getPeriod#(Ljava/lang/String;)LGameRuleLanguage/sandbox/PointConcept/Period;" />
+      <node id="5909584729282001619" at="62,0,65,0" concept="5" trace="getPeriods#()Ljava/util/Map;" />
+      <node id="5909584729282001641" at="69,0,72,0" concept="5" trace="getScore#()Ljava/lang/Double;" />
+      <node id="5909584729282001689" at="84,53,87,5" concept="3" />
+      <node id="5909584729282001729" at="95,70,98,5" concept="4" />
+      <node id="5909584729282001789" at="111,0,114,0" concept="5" trace="deletePeriod#(Ljava/lang/String;)V" />
+      <node id="5909584729282001798" at="115,0,118,0" concept="5" trace="getPeriodCurrentScore#(I)Ljava/lang/Double;" />
+      <node id="5909584729282001812" at="119,0,122,0" concept="5" trace="getPeriodCurrentScore#(Ljava/lang/String;)Ljava/lang/Double;" />
+      <node id="5909584729282001827" at="123,0,126,0" concept="5" trace="getPeriodCurrentInstance#(I)LGameRuleLanguage/sandbox/PointConcept/PeriodInstance;" />
+      <node id="5909584729282001841" at="127,0,130,0" concept="5" trace="getPeriodCurrentInstance#(Ljava/lang/String;)LGameRuleLanguage/sandbox/PointConcept/PeriodInstance;" />
+      <node id="5909584729282001897" at="141,0,144,0" concept="5" trace="getPeriodScore#(Ljava/lang/String;J)Ljava/lang/Double;" />
+      <node id="5909584729282001915" at="145,0,148,0" concept="5" trace="getPeriodInstance#(Ljava/lang/String;J)LGameRuleLanguage/sandbox/PointConcept/PeriodInstance;" />
+      <node id="5909584729282000560" at="220,51,223,9" concept="4" />
+      <node id="5909584729282000602" at="227,34,230,11" concept="4" />
+      <node id="5909584729282000614" at="230,11,233,11" concept="4" />
+      <node id="5909584729282000641" at="236,57,239,9" concept="4" />
+      <node id="5909584729282000701" at="248,0,251,0" concept="5" trace="getCurrentInstance#()LGameRuleLanguage/sandbox/PointConcept/PeriodInstanceImpl;" />
+      <node id="5909584729282000777" at="273,0,276,0" concept="5" trace="retrieveInstance#(J)LGameRuleLanguage/sandbox/PointConcept/PeriodInstanceImpl;" />
+      <node id="5909584729282001050" at="276,0,279,0" concept="5" trace="getStart#()Ljava/util/Date;" />
+      <node id="5909584729282001056" at="279,0,282,0" concept="5" trace="setStart#(Ljava/util/Date;)V" />
+      <node id="5909584729282001068" at="282,0,285,0" concept="5" trace="getPeriod#()J" />
+      <node id="5909584729282001074" at="285,0,288,0" concept="5" trace="setPeriod#(J)V" />
+      <node id="5909584729282001086" at="288,0,291,0" concept="5" trace="getInstances#()Ljava/util/TreeMap;" />
+      <node id="5909584729282001094" at="291,0,294,0" concept="5" trace="setInstances#(Ljava/util/TreeMap;)V" />
+      <node id="5909584729282001108" at="294,0,297,0" concept="5" trace="setIdentifier#(Ljava/lang/String;)V" />
+      <node id="5909584729282001120" at="297,0,300,0" concept="5" trace="getIdentifier#()Ljava/lang/String;" />
+      <node id="5909584729282001133" at="304,0,307,0" concept="5" trace="setCapacity#(I)I" />
+      <node id="5909584729282001145" at="307,0,310,0" concept="5" trace="getEnd#()Ljava/util/Optional;" />
+      <node id="5909584729282001152" at="310,0,313,0" concept="5" trace="setEnd#(Ljava/util/Optional;)V" />
+      <node id="5909584729282001238" at="328,31,331,9" concept="4" />
+      <node id="5909584729282001250" at="331,9,334,9" concept="4" />
+      <node id="5909584729282001271" at="336,31,339,9" concept="4" />
+      <node id="5909584729282001283" at="339,9,342,9" concept="4" />
+      <node id="5909584729282001304" at="344,29,347,9" concept="4" />
+      <node id="5909584729282001316" at="347,9,350,9" concept="4" />
+      <node id="5909584729282001337" at="352,31,355,9" concept="4" />
+      <node id="5909584729282001365" at="362,0,365,0" concept="5" trace="getScore#()Ljava/lang/Double;" />
+      <node id="5909584729282001371" at="365,0,368,0" concept="5" trace="setScore#(Ljava/lang/Double;)V" />
+      <node id="5909584729282001383" at="368,0,371,0" concept="5" trace="getStart#()J" />
+      <node id="5909584729282001389" at="371,0,374,0" concept="5" trace="setStart#(J)V" />
+      <node id="5909584729282001401" at="374,0,377,0" concept="5" trace="getEnd#()J" />
+      <node id="5909584729282001407" at="377,0,380,0" concept="5" trace="setEnd#(J)V" />
+      <node id="5909584729282001446" at="385,0,388,0" concept="5" trace="getIndex#()I" />
+      <node id="5909584729282001452" at="388,0,391,0" concept="5" trace="setIndex#(I)V" />
+      <node id="5909584729282002064" at="392,0,395,0" concept="5" trace="getExecutionMoment#()J" />
+      <node id="5909584729282002070" at="396,0,399,0" concept="5" trace="setExecutionMoment#(J)V" />
+      <node id="5909584729282001491" at="23,0,27,0" concept="0" trace="PointConcept#(Ljava/lang/String;J)V" />
+      <node id="5909584729282001647" at="73,0,77,0" concept="5" trace="setScore#(Ljava/lang/Double;)V" />
+      <node id="5909584729282001702" at="90,0,94,0" concept="5" trace="addPeriod#(Ljava/lang/String;Ljava/util/Date;J)V" />
+      <node id="5909584729282001741" at="101,0,105,0" concept="5" trace="addPeriod#(Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;J)V" />
+      <node id="5909584729282001765" at="106,0,110,0" concept="5" trace="addPeriod#(Ljava/lang/String;Ljava/util/Date;JI)V" />
+      <node id="5909584729282001856" at="131,0,135,0" concept="5" trace="getPeriodPreviousScore#(Ljava/lang/String;)Ljava/lang/Double;" />
+      <node id="5909584729282001874" at="136,0,140,0" concept="5" trace="getPeriodPreviousInstance#(Ljava/lang/String;)LGameRuleLanguage/sandbox/PointConcept/PeriodInstance;" />
+      <node id="5909584729282001933" at="149,0,153,0" concept="5" trace="getCurrentInstanceIndex#(Ljava/lang/String;)I" />
+      <node id="5909584729282001967" at="156,53,160,5" concept="4" />
+      <node id="5909584729282001992" at="174,0,178,0" concept="5" trace="getPeriodInstance#(Ljava/lang/String;I)LGameRuleLanguage/sandbox/PointConcept/PeriodInstance;" />
+      <node id="5909584729282000458" at="204,0,208,0" concept="0" trace="PeriodInternal#(Ljava/lang/String;Ljava/util/Date;JI)V" />
+      <node id="5909584729282000517" at="214,0,218,0" concept="0" trace="PeriodInternal#(Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;JI)V" />
+      <node id="5909584729282001126" at="300,0,304,0" concept="5" trace="getCapacity#()I" />
+      <node id="5909584729282001185" at="319,0,323,0" concept="0" trace="PeriodInstanceImpl#(JJ)V" />
+      <node id="5909584729282001351" at="358,0,362,0" concept="5" trace="increaseScore#(Ljava/lang/Double;)Ljava/lang/Double;" />
+      <node id="5909584729282002087" at="401,37,405,5" concept="4" />
+      <node id="5909584729282002110" at="409,0,413,0" concept="5" trace="hashCode#()I" />
+      <node id="5909584729282002124" at="414,0,418,0" concept="5" trace="toString#()Ljava/lang/String;" />
+      <node id="5909584729282001666" at="78,0,83,0" concept="5" trace="increment#(Ljava/lang/Double;)Ljava/lang/Double;" />
+      <node id="5909584729282001685" at="84,0,89,0" concept="5" trace="increasePeriodicPoints#(Ljava/lang/Double;)V" />
+      <node id="5909584729282001723" at="95,0,100,0" concept="5" trace="storePeriod#(Ljava/lang/String;LGameRuleLanguage/sandbox/PointConcept/PeriodInternal;)V" />
+      <node id="5909584729282000668" at="240,119,245,9" concept="4" />
+      <node id="5909584729282000724" at="251,37,256,7" concept="11" />
+      <node id="5909584729282000746" at="258,41,263,7" concept="11" />
+      <node id="5909584729282001331" at="351,7,356,7" concept="4" />
+      <node id="5909584729282001419" at="380,0,385,0" concept="5" trace="toString#()Ljava/lang/String;" />
+      <node id="5909584729282001576" at="48,80,54,7" concept="4" />
+      <node id="5909584729282000424" at="198,0,204,0" concept="0" trace="PeriodInternal#(Ljava/lang/String;Ljava/util/Date;J)V" />
+      <node id="5909584729282000480" at="208,0,214,0" concept="0" trace="PeriodInternal#(Ljava/lang/String;Ljava/util/Date;Ljava/util/Date;J)V" />
+      <node id="5909584729282000773" at="265,60,271,7" concept="11" />
+      <node id="5909584729282000708" at="251,0,258,0" concept="5" trace="getCurrentScore#()Ljava/lang/Double;" />
+      <node id="5909584729282000728" at="258,0,265,0" concept="5" trace="getScore#(J)Ljava/lang/Double;" />
+      <node id="5909584729282001532" at="39,38,47,7" concept="4" />
+      <node id="5909584729282000596" at="226,53,234,9" concept="4" />
+      <node id="5909584729282000750" at="265,0,273,0" concept="5" trace="increaseScore#(Ljava/lang/Double;J)Ljava/lang/Double;" />
+      <node id="5909584729282001232" at="327,49,335,7" concept="4" />
+      <node id="5909584729282001265" at="335,7,343,7" concept="4" />
+      <node id="5909584729282001298" at="343,7,351,7" concept="4" />
+      <node id="5909584729282002082" at="400,0,408,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="5909584729282001952" at="154,0,163,0" concept="5" trace="getPeriodScore#(Ljava/lang/String;I)Ljava/lang/Double;" />
+      <node id="5909584729282001521" at="33,21,55,5" concept="4" />
+      <node id="5909584729282001513" at="32,0,57,0" concept="0" trace="PointConcept#(Ljava/util/Map;)V" />
+      <node id="5909584729282000549" at="218,58,246,7" concept="4" />
+      <node id="5909584729282000542" at="218,0,248,0" concept="0" trace="PeriodInternal#(Ljava/util/Map;)V" />
+      <node id="5909584729282001205" at="323,0,358,0" concept="0" trace="PeriodInstanceImpl#(Ljava/util/Map;)V" />
+      <scope id="5909584729282001632" at="66,63,66,63" />
+      <scope id="5909584729282000685" at="243,72,243,72" />
+      <scope id="5909584729282001509" at="28,36,29,16" />
+      <scope id="5909584729282001543" at="41,43,42,38" />
+      <scope id="5909584729282001555" at="44,44,45,55" />
+      <scope id="5909584729282001591" at="51,57,52,98" />
+      <scope id="5909584729282001613" at="58,46,59,35" />
+      <scope id="5909584729282001620" at="62,51,63,19" />
+      <scope id="5909584729282001642" at="69,28,70,17" />
+      <scope id="5909584729282001691" at="85,47,86,46" />
+      <scope id="5909584729282001734" at="96,45,97,38" />
+      <scope id="5909584729282001792" at="111,47,112,31" />
+      <scope id="5909584729282001801" at="115,56,116,16" />
+      <scope id="5909584729282001815" at="119,64,120,107" />
+      <scope id="5909584729282001830" at="123,67,124,16" />
+      <scope id="5909584729282001844" at="127,75,128,111" />
+      <scope id="5909584729282001902" at="141,70,142,106" />
+      <scope id="5909584729282001920" at="145,81,146,115" />
+      <scope id="5909584729282000346" at="179,0,180,0" />
+      <scope id="5909584729282000350" at="180,0,181,0" />
+      <scope id="5909584729282000355" at="181,0,182,0" />
+      <scope id="5909584729282000359" at="182,0,183,0" />
+      <scope id="5909584729282000363" at="183,0,184,0" />
+      <scope id="5909584729282000369" at="186,0,187,0" />
+      <scope id="5909584729282000373" at="187,0,188,0" />
+      <scope id="5909584729282000377" at="188,0,189,0" />
+      <scope id="5909584729282000381" at="189,0,190,0" />
+      <scope id="5909584729282000565" at="221,33,222,46" />
+      <scope id="5909584729282000607" at="228,44,229,40" />
+      <scope id="5909584729282000619" at="231,47,232,72" />
+      <scope id="5909584729282000646" at="237,36,238,41" />
+      <scope id="5909584729282000702" at="248,53,249,47" />
+      <scope id="5909584729282000712" at="252,11,253,47" />
+      <scope id="5909584729282000725" at="254,0,255,19">
+        <var name="e" id="5909584729282000717" />
+      </scope>
+      <scope id="5909584729282000721" at="254,44,255,19" />
+      <scope id="5909584729282000733" at="259,11,260,51" />
+      <scope id="5909584729282000747" at="261,0,262,19">
+        <var name="e" id="5909584729282000739" />
+      </scope>
+      <scope id="5909584729282000743" at="261,40,262,19" />
+      <scope id="5909584729282000774" at="269,0,270,19">
+        <var name="e" id="5909584729282000766" />
+      </scope>
+      <scope id="5909584729282000770" at="269,44,270,19" />
+      <scope id="5909584729282000780" at="273,62,274,18" />
+      <scope id="5909584729282001051" at="276,28,277,19" />
+      <scope id="5909584729282001059" at="279,38,280,25" />
+      <scope id="5909584729282001069" at="282,29,283,20" />
+      <scope id="5909584729282001077" at="285,40,286,27" />
+      <scope id="5909584729282001087" at="288,70,289,23" />
+      <scope id="5909584729282001099" at="291,84,292,33" />
+      <scope id="5909584729282001111" at="294,50,295,35" />
+      <scope id="5909584729282001121" at="297,35,298,24" />
+      <scope id="5909584729282001128" at="301,30,302,22" />
+      <scope id="5909584729282001136" at="304,42,305,38" />
+      <scope id="5909584729282001146" at="307,36,308,17" />
+      <scope id="5909584729282001156" at="310,44,311,21" />
+      <scope id="5909584729282001243" at="329,43,330,38" />
+      <scope id="5909584729282001255" at="332,44,333,70" />
+      <scope id="5909584729282001276" at="337,41,338,36" />
+      <scope id="5909584729282001288" at="340,44,341,68" />
+      <scope id="5909584729282001309" at="345,39,346,32" />
+      <scope id="5909584729282001321" at="348,42,349,64" />
+      <scope id="5909584729282001342" at="353,44,354,56" />
+      <scope id="5909584729282001366" at="362,30,363,19" />
+      <scope id="5909584729282001374" at="365,40,366,25" />
+      <scope id="5909584729282001384" at="368,28,369,19" />
+      <scope id="5909584729282001392" at="371,38,372,25" />
+      <scope id="5909584729282001402" at="374,26,375,17" />
+      <scope id="5909584729282001410" at="377,34,378,21" />
+      <scope id="5909584729282001447" at="385,27,386,19" />
+      <scope id="5909584729282001455" at="388,37,389,25" />
+      <scope id="5909584729282002065" at="392,36,393,27" />
+      <scope id="5909584729282002073" at="396,56,397,43" />
+      <scope id="5909584729282002112" at="410,25,411,13" />
+      <scope id="5909584729282002126" at="415,28,416,63" />
+      <scope id="5909584729282001497" at="23,49,25,29" />
+      <scope id="5909584729282001627" at="66,0,68,0">
+        <var name="periods" id="5909584729282001628" />
+      </scope>
+      <scope id="5909584729282001650" at="73,38,75,23" />
+      <scope id="5909584729282001709" at="90,69,92,31">
+        <var name="p" id="5909584729282001710" />
+      </scope>
+      <scope id="5909584729282001750" at="101,79,103,31">
+        <var name="p" id="5909584729282001751" />
+      </scope>
+      <scope id="5909584729282001774" at="106,83,108,31">
+        <var name="p" id="5909584729282001775" />
+      </scope>
+      <scope id="5909584729282001859" at="131,65,133,58">
+        <var name="previous" id="5909584729282001860" />
+      </scope>
+      <scope id="5909584729282001877" at="136,76,138,95">
+        <var name="currentIndex" id="5909584729282001878" />
+      </scope>
+      <scope id="5909584729282001936" at="149,64,151,55">
+        <var name="current" id="5909584729282001937" />
+      </scope>
+      <scope id="5909584729282001972" at="157,20,159,62">
+        <var name="instance" id="5909584729282001973" />
+      </scope>
+      <scope id="5909584729282001997" at="174,87,176,18">
+        <var name="result" id="5909584729282001998" />
+      </scope>
+      <scope id="5909584729282000468" at="204,85,206,31" />
+      <scope id="5909584729282000529" at="214,95,216,31" />
+      <scope id="5909584729282000683" at="242,89,244,11">
+        <var name="entry" id="5909584729282000692" />
+      </scope>
+      <scope id="5909584729282000757" at="266,11,268,45">
+        <var name="instance" id="5909584729282000758" />
+      </scope>
+      <scope id="5909584729282001191" at="319,53,321,21" />
+      <scope id="5909584729282001354" at="358,47,360,19" />
+      <scope id="5909584729282001421" at="381,30,383,174">
+        <var name="formatter" id="5909584729282001422" />
+      </scope>
+      <scope id="5909584729282002092" at="402,38,404,62">
+        <var name="toCompare" id="5909584729282002093" />
+      </scope>
+      <scope id="5909584729282001505" at="28,0,31,0">
+        <var name="name" id="5909584729282001507" />
+      </scope>
+      <scope id="5909584729282001589" at="50,65,53,9">
+        <var name="entry" id="5909584729282001601" />
+      </scope>
+      <scope id="5909584729282001610" at="58,0,61,0">
+        <var name="periodName" id="5909584729282001611" />
+      </scope>
+      <scope id="5909584729282001619" at="62,0,65,0" />
+      <scope id="5909584729282001641" at="69,0,72,0" />
+      <scope id="5909584729282001669" at="78,41,81,22" />
+      <scope id="5909584729282001688" at="84,53,87,5" />
+      <scope id="5909584729282001689" at="84,53,87,5">
+        <var name="p" id="5909584729282001696" />
+      </scope>
+      <scope id="5909584729282001728" at="95,70,98,5" />
+      <scope id="5909584729282001789" at="111,0,114,0">
+        <var name="identifier" id="5909584729282001790" />
+      </scope>
+      <scope id="5909584729282001798" at="115,0,118,0">
+        <var name="periodIndex" id="5909584729282001799" />
+      </scope>
+      <scope id="5909584729282001812" at="119,0,122,0">
+        <var name="periodIdentifier" id="5909584729282001813" />
+      </scope>
+      <scope id="5909584729282001827" at="123,0,126,0">
+        <var name="periodIndex" id="5909584729282001828" />
+      </scope>
+      <scope id="5909584729282001841" at="127,0,130,0">
+        <var name="periodIdentifier" id="5909584729282001842" />
+      </scope>
+      <scope id="5909584729282001897" at="141,0,144,0">
+        <var name="moment" id="5909584729282001900" />
+        <var name="periodIdentifier" id="5909584729282001898" />
+      </scope>
+      <scope id="5909584729282001915" at="145,0,148,0">
+        <var name="moment" id="5909584729282001918" />
+        <var name="periodIdentifier" id="5909584729282001916" />
+      </scope>
+      <scope id="5909584729282000673" at="241,36,244,11">
+        <var name="entries" id="5909584729282000674" />
+      </scope>
+      <scope id="5909584729282000701" at="248,0,251,0" />
+      <scope id="5909584729282000777" at="273,0,276,0">
+        <var name="moment" id="5909584729282000778" />
+      </scope>
+      <scope id="5909584729282001050" at="276,0,279,0" />
+      <scope id="5909584729282001056" at="279,0,282,0">
+        <var name="start" id="5909584729282001057" />
+      </scope>
+      <scope id="5909584729282001068" at="282,0,285,0" />
+      <scope id="5909584729282001074" at="285,0,288,0">
+        <var name="period" id="5909584729282001075" />
+      </scope>
+      <scope id="5909584729282001086" at="288,0,291,0" />
+      <scope id="5909584729282001094" at="291,0,294,0">
+        <var name="instances" id="5909584729282001095" />
+      </scope>
+      <scope id="5909584729282001108" at="294,0,297,0">
+        <var name="identifier" id="5909584729282001109" />
+      </scope>
+      <scope id="5909584729282001120" at="297,0,300,0" />
+      <scope id="5909584729282001133" at="304,0,307,0">
+        <var name="capacity" id="5909584729282001134" />
+      </scope>
+      <scope id="5909584729282001145" at="307,0,310,0" />
+      <scope id="5909584729282001152" at="310,0,313,0">
+        <var name="end" id="5909584729282001153" />
+      </scope>
+      <scope id="5909584729282001336" at="352,31,355,9" />
+      <scope id="5909584729282001365" at="362,0,365,0" />
+      <scope id="5909584729282001371" at="365,0,368,0">
+        <var name="score" id="5909584729282001372" />
+      </scope>
+      <scope id="5909584729282001383" at="368,0,371,0" />
+      <scope id="5909584729282001389" at="371,0,374,0">
+        <var name="start" id="5909584729282001390" />
+      </scope>
+      <scope id="5909584729282001401" at="374,0,377,0" />
+      <scope id="5909584729282001407" at="377,0,380,0">
+        <var name="end" id="5909584729282001408" />
+      </scope>
+      <scope id="5909584729282001446" at="385,0,388,0" />
+      <scope id="5909584729282001452" at="388,0,391,0">
+        <var name="index" id="5909584729282001453" />
+      </scope>
+      <scope id="5909584729282002064" at="392,0,395,0" />
+      <scope id="5909584729282002070" at="396,0,399,0">
+        <var name="executionMoment" id="5909584729282002071" />
+      </scope>
+      <scope id="5909584729282001491" at="23,0,27,0">
+        <var name="moment" id="5909584729282001495" />
+        <var name="name" id="5909584729282001493" />
+      </scope>
+      <scope id="5909584729282001581" at="49,25,53,9">
+        <var name="entries" id="5909584729282001582" />
+      </scope>
+      <scope id="5909584729282001647" at="73,0,77,0">
+        <var name="score" id="5909584729282001648" />
+      </scope>
+      <scope id="5909584729282001702" at="90,0,94,0">
+        <var name="identifier" id="5909584729282001703" />
+        <var name="period" id="5909584729282001707" />
+        <var name="start" id="5909584729282001705" />
+      </scope>
+      <scope id="5909584729282001741" at="101,0,105,0">
+        <var name="end" id="5909584729282001746" />
+        <var name="identifier" id="5909584729282001742" />
+        <var name="period" id="5909584729282001748" />
+        <var name="start" id="5909584729282001744" />
+      </scope>
+      <scope id="5909584729282001765" at="106,0,110,0">
+        <var name="capacity" id="5909584729282001772" />
+        <var name="identifier" id="5909584729282001766" />
+        <var name="period" id="5909584729282001770" />
+        <var name="start" id="5909584729282001768" />
+      </scope>
+      <scope id="5909584729282001856" at="131,0,135,0">
+        <var name="periodIdentifier" id="5909584729282001857" />
+      </scope>
+      <scope id="5909584729282001874" at="136,0,140,0">
+        <var name="periodIdentifier" id="5909584729282001875" />
+      </scope>
+      <scope id="5909584729282001933" at="149,0,153,0">
+        <var name="periodIdentifier" id="5909584729282001934" />
+      </scope>
+      <scope id="5909584729282001992" at="174,0,178,0">
+        <var name="instanceIndex" id="5909584729282001995" />
+        <var name="periodIdentifier" id="5909584729282001993" />
+      </scope>
+      <scope id="5909584729282000432" at="198,71,202,35" />
+      <scope id="5909584729282000458" at="204,0,208,0">
+        <var name="capacity" id="5909584729282000466" />
+        <var name="identifier" id="5909584729282000460" />
+        <var name="period" id="5909584729282000464" />
+        <var name="start" id="5909584729282000462" />
+      </scope>
+      <scope id="5909584729282000490" at="208,81,212,35" />
+      <scope id="5909584729282000517" at="214,0,218,0">
+        <var name="capacity" id="5909584729282000527" />
+        <var name="end" id="5909584729282000523" />
+        <var name="identifier" id="5909584729282000519" />
+        <var name="period" id="5909584729282000525" />
+        <var name="start" id="5909584729282000521" />
+      </scope>
+      <scope id="5909584729282001126" at="300,0,304,0" />
+      <scope id="5909584729282001185" at="319,0,323,0">
+        <var name="end" id="5909584729282001189" />
+        <var name="start" id="5909584729282001187" />
+      </scope>
+      <scope id="5909584729282001351" at="358,0,362,0">
+        <var name="value" id="5909584729282001352" />
+      </scope>
+      <scope id="5909584729282002110" at="409,0,413,0" />
+      <scope id="5909584729282002124" at="414,0,418,0" />
+      <scope id="5909584729282001666" at="78,0,83,0">
+        <var name="score" id="5909584729282001667" />
+      </scope>
+      <scope id="5909584729282001685" at="84,0,89,0">
+        <var name="score" id="5909584729282001686" />
+      </scope>
+      <scope id="5909584729282001723" at="95,0,100,0">
+        <var name="identifier" id="5909584729282001724" />
+        <var name="period" id="5909584729282001726" />
+      </scope>
+      <scope id="5909584729282000710" at="251,37,256,7" />
+      <scope id="5909584729282000731" at="258,41,263,7" />
+      <scope id="5909584729282001419" at="380,0,385,0" />
+      <scope id="5909584729282002086" at="401,37,406,17" />
+      <scope id="5909584729282001537" at="40,31,46,9" />
+      <scope id="5909584729282000424" at="198,0,204,0">
+        <var name="identifier" id="5909584729282000426" />
+        <var name="period" id="5909584729282000430" />
+        <var name="start" id="5909584729282000428" />
+      </scope>
+      <scope id="5909584729282000480" at="208,0,214,0">
+        <var name="end" id="5909584729282000486" />
+        <var name="identifier" id="5909584729282000482" />
+        <var name="period" id="5909584729282000488" />
+        <var name="start" id="5909584729282000484" />
+      </scope>
+      <scope id="5909584729282000601" at="227,34,233,11" />
+      <scope id="5909584729282000755" at="265,60,271,7" />
+      <scope id="5909584729282001237" at="328,31,334,9" />
+      <scope id="5909584729282001270" at="336,31,342,9" />
+      <scope id="5909584729282001303" at="344,29,350,9" />
+      <scope id="5909584729282001957" at="154,76,161,18">
+        <var name="p" id="5909584729282001962" />
+        <var name="result" id="5909584729282001958" />
+      </scope>
+      <scope id="5909584729282000708" at="251,0,258,0" />
+      <scope id="5909584729282000728" at="258,0,265,0">
+        <var name="moment" id="5909584729282000729" />
+      </scope>
+      <scope id="5909584729282000750" at="265,0,273,0">
+        <var name="moment" id="5909584729282000753" />
+        <var name="value" id="5909584729282000751" />
+      </scope>
+      <scope id="5909584729282002082" at="400,0,408,0">
+        <var name="obj" id="5909584729282002084" />
+      </scope>
+      <scope id="5909584729282001952" at="154,0,163,0">
+        <var name="instanceIndex" id="5909584729282001955" />
+        <var name="periodIdentifier" id="5909584729282001953" />
+      </scope>
+      <scope id="5909584729282001526" at="34,28,54,7">
+        <var name="scoreField" id="5909584729282001527" />
+        <var name="temp" id="5909584729282001565" />
+      </scope>
+      <scope id="5909584729282001520" at="32,54,55,5" />
+      <scope id="5909584729282001513" at="32,0,57,0">
+        <var name="jsonProps" id="5909584729282001516" />
+      </scope>
+      <scope id="5909584729282000554" at="219,30,245,9">
+        <var name="capacityField" id="5909584729282000636" />
+        <var name="endField" id="5909584729282000573" />
+        <var name="periodField" id="5909584729282000591" />
+        <var name="startField" id="5909584729282000555" />
+        <var name="tempInstances" id="5909584729282000653" />
+      </scope>
+      <scope id="5909584729282000548" at="218,58,246,7" />
+      <scope id="5909584729282000542" at="218,0,248,0">
+        <var name="jsonProps" id="5909584729282000544" />
+      </scope>
+      <scope id="5909584729282001211" at="323,62,356,7">
+        <var name="endField" id="5909584729282001222" />
+        <var name="indexField" id="5909584729282001227" />
+        <var name="scoreField" id="5909584729282001212" />
+        <var name="startField" id="5909584729282001217" />
+      </scope>
+      <scope id="5909584729282001205" at="323,0,358,0">
+        <var name="jsonProps" id="5909584729282001207" />
+      </scope>
+      <unit id="5909584729282000367" at="185,0,191,0" name="GameRuleLanguage.sandbox.PointConcept$PeriodInstance" />
+      <unit id="5909584729282000344" at="178,0,185,0" name="GameRuleLanguage.sandbox.PointConcept$Period" />
+      <unit id="5909584729282001165" at="314,0,392,0" name="GameRuleLanguage.sandbox.PointConcept$PeriodInstanceImpl" />
+      <unit id="5909584729282000385" at="191,0,314,0" name="GameRuleLanguage.sandbox.PointConcept$PeriodInternal" />
+      <unit id="5909584729282000342" at="17,0,419,0" name="GameRuleLanguage.sandbox.PointConcept" />
+    </file>
+  </root>
+  <root nodeRef="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox)/5909584729282002212">
+    <file name="InputData.java">
+      <node id="5909584729282002214" at="8,0,9,0" concept="2" trace="data" />
+      <node id="5909584729282002227" at="9,46,10,21" concept="1" />
+      <node id="5909584729282002236" at="12,40,13,16" concept="7" />
+      <node id="5909584729282002248" at="15,49,16,21" concept="1" />
+      <node id="5909584729282002220" at="9,0,12,0" concept="0" trace="InputData#(Ljava/util/Map;)V" />
+      <node id="5909584729282002234" at="12,0,15,0" concept="5" trace="getData#()Ljava/util/Map;" />
+      <node id="5909584729282002242" at="15,0,18,0" concept="5" trace="setData#(Ljava/util/Map;)V" />
+      <scope id="5909584729282002226" at="9,46,10,21" />
+      <scope id="5909584729282002235" at="12,40,13,16" />
+      <scope id="5909584729282002247" at="15,49,16,21" />
+      <scope id="5909584729282002220" at="9,0,12,0">
+        <var name="data" id="5909584729282002222" />
+      </scope>
+      <scope id="5909584729282002234" at="12,0,15,0" />
+      <scope id="5909584729282002242" at="15,0,18,0">
+        <var name="data" id="5909584729282002243" />
+      </scope>
+      <unit id="5909584729282002212" at="7,0,19,0" name="GameRuleLanguage.sandbox.InputData" />
+    </file>
+  </root>
+  <root nodeRef="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox)/5909584729282002259">
+    <file name="GameConcept.java">
+      <node id="5909584729282002261" at="8,0,9,0" concept="2" trace="id" />
+      <node id="5909584729282002265" at="9,0,10,0" concept="2" trace="name" />
+      <node id="5909584729282002274" at="10,35,11,21" concept="1" />
+      <node id="5909584729282002299" at="16,28,17,43" concept="6" />
+      <node id="5909584729282002303" at="17,43,18,64" concept="1" />
+      <node id="5909584729282002314" at="18,64,19,44" concept="1" />
+      <node id="5909584729282002324" at="22,25,23,14" concept="7" />
+      <node id="5909584729282002332" at="25,32,26,17" concept="1" />
+      <node id="5909584729282002342" at="28,27,29,16" concept="7" />
+      <node id="5909584729282002350" at="31,36,32,21" concept="1" />
+      <node id="5909584729282002281" at="13,0,15,0" concept="0" trace="GameConcept#()V" />
+      <node id="5909584729282002269" at="10,0,13,0" concept="0" trace="GameConcept#(Ljava/lang/String;)V" />
+      <node id="5909584729282002322" at="22,0,25,0" concept="5" trace="getId#()Ljava/lang/String;" />
+      <node id="5909584729282002328" at="25,0,28,0" concept="5" trace="setId#(Ljava/lang/String;)V" />
+      <node id="5909584729282002340" at="28,0,31,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="5909584729282002346" at="31,0,34,0" concept="5" trace="setName#(Ljava/lang/String;)V" />
+      <node id="5909584729282002292" at="15,53,20,5" concept="4" />
+      <node id="5909584729282002285" at="15,0,22,0" concept="0" trace="GameConcept#(Ljava/util/Map;)V" />
+      <scope id="5909584729282002283" at="13,24,13,24" />
+      <scope id="5909584729282002273" at="10,35,11,21" />
+      <scope id="5909584729282002323" at="22,25,23,14" />
+      <scope id="5909584729282002331" at="25,32,26,17" />
+      <scope id="5909584729282002341" at="28,27,29,16" />
+      <scope id="5909584729282002349" at="31,36,32,21" />
+      <scope id="5909584729282002281" at="13,0,15,0" />
+      <scope id="5909584729282002269" at="10,0,13,0">
+        <var name="name" id="5909584729282002271" />
+      </scope>
+      <scope id="5909584729282002297" at="16,28,19,44">
+        <var name="idField" id="5909584729282002298" />
+      </scope>
+      <scope id="5909584729282002322" at="22,0,25,0" />
+      <scope id="5909584729282002328" at="25,0,28,0">
+        <var name="id" id="5909584729282002329" />
+      </scope>
+      <scope id="5909584729282002340" at="28,0,31,0" />
+      <scope id="5909584729282002346" at="31,0,34,0">
+        <var name="name" id="5909584729282002347" />
+      </scope>
+      <scope id="5909584729282002291" at="15,53,20,5" />
+      <scope id="5909584729282002285" at="15,0,22,0">
+        <var name="jsonProps" id="5909584729282002287" />
+      </scope>
+      <unit id="5909584729282002259" at="7,0,35,0" name="GameRuleLanguage.sandbox.GameConcept" />
+    </file>
+  </root>
+  <root nodeRef="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox)/5909584729282002361">
+    <file name="CustomData.java">
+      <node id="5909584729282002366" at="10,0,11,0" concept="2" trace="data" />
+      <node id="5909584729282002385" at="14,21,15,23" concept="7" />
+      <node id="5909584729282002392" at="18,28,19,26" concept="7" />
+      <node id="5909584729282002401" at="22,42,23,33" concept="7" />
+      <node id="5909584729282002411" at="26,46,27,37" concept="7" />
+      <node id="5909584729282002421" at="30,33,31,25" concept="7" />
+      <node id="5909584729282002433" at="34,47,35,32" concept="7" />
+      <node id="5909584729282002444" at="38,36,39,28" concept="7" />
+      <node id="5909584729282002458" at="42,65,43,19" concept="1" />
+      <node id="5909584729282002466" at="46,23,47,17" concept="1" />
+      <node id="5909584729282002473" at="50,31,51,25" concept="7" />
+      <node id="5909584729282002481" at="54,38,55,25" concept="7" />
+      <node id="5909584729282002489" at="58,52,59,27" concept="7" />
+      <node id="5909584729282002499" at="62,28,63,27" concept="7" />
+      <node id="5909584729282002372" at="11,0,13,0" concept="0" trace="CustomData#()V" />
+      <node id="5909584729282002382" at="13,0,17,0" concept="5" trace="size#()I" />
+      <node id="5909584729282002389" at="17,0,21,0" concept="5" trace="isEmpty#()Z" />
+      <node id="5909584729282002396" at="21,0,25,0" concept="5" trace="containsKey#(Ljava/lang/Object;)Z" />
+      <node id="5909584729282002406" at="25,0,29,0" concept="5" trace="containsValue#(Ljava/lang/Object;)Z" />
+      <node id="5909584729282002416" at="29,0,33,0" concept="5" trace="get#(Ljava/lang/Object;)Ljava/lang/Object;" />
+      <node id="5909584729282002426" at="33,0,37,0" concept="5" trace="put#(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;" />
+      <node id="5909584729282002439" at="37,0,41,0" concept="5" trace="remove#(Ljava/lang/Object;)Ljava/lang/Object;" />
+      <node id="5909584729282002449" at="41,0,45,0" concept="5" trace="putAll#(Ljava/util/Map;)V" />
+      <node id="5909584729282002463" at="45,0,49,0" concept="5" trace="clear#()V" />
+      <node id="5909584729282002470" at="49,0,53,0" concept="5" trace="keySet#()Ljava/util/Set;" />
+      <node id="5909584729282002478" at="53,0,57,0" concept="5" trace="values#()Ljava/util/Collection;" />
+      <node id="5909584729282002486" at="57,0,61,0" concept="5" trace="entrySet#()Ljava/util/Set;" />
+      <node id="5909584729282002496" at="61,0,65,0" concept="5" trace="toString#()Ljava/lang/String;" />
+      <scope id="5909584729282002374" at="11,23,11,23" />
+      <scope id="5909584729282002384" at="14,21,15,23" />
+      <scope id="5909584729282002391" at="18,28,19,26" />
+      <scope id="5909584729282002400" at="22,42,23,33" />
+      <scope id="5909584729282002410" at="26,46,27,37" />
+      <scope id="5909584729282002420" at="30,33,31,25" />
+      <scope id="5909584729282002432" at="34,47,35,32" />
+      <scope id="5909584729282002443" at="38,36,39,28" />
+      <scope id="5909584729282002457" at="42,65,43,19" />
+      <scope id="5909584729282002465" at="46,23,47,17" />
+      <scope id="5909584729282002472" at="50,31,51,25" />
+      <scope id="5909584729282002480" at="54,38,55,25" />
+      <scope id="5909584729282002488" at="58,52,59,27" />
+      <scope id="5909584729282002498" at="62,28,63,27" />
+      <scope id="5909584729282002372" at="11,0,13,0" />
+      <scope id="5909584729282002382" at="13,0,17,0" />
+      <scope id="5909584729282002389" at="17,0,21,0" />
+      <scope id="5909584729282002396" at="21,0,25,0">
+        <var name="key" id="5909584729282002398" />
+      </scope>
+      <scope id="5909584729282002406" at="25,0,29,0">
+        <var name="value" id="5909584729282002408" />
+      </scope>
+      <scope id="5909584729282002416" at="29,0,33,0">
+        <var name="key" id="5909584729282002418" />
+      </scope>
+      <scope id="5909584729282002426" at="33,0,37,0">
+        <var name="key" id="5909584729282002428" />
+        <var name="value" id="5909584729282002430" />
+      </scope>
+      <scope id="5909584729282002439" at="37,0,41,0">
+        <var name="key" id="5909584729282002441" />
+      </scope>
+      <scope id="5909584729282002449" at="41,0,45,0">
+        <var name="m" id="5909584729282002451" />
+      </scope>
+      <scope id="5909584729282002463" at="45,0,49,0" />
+      <scope id="5909584729282002470" at="49,0,53,0" />
+      <scope id="5909584729282002478" at="53,0,57,0" />
+      <scope id="5909584729282002486" at="57,0,61,0" />
+      <scope id="5909584729282002496" at="61,0,65,0" />
+      <unit id="5909584729282002361" at="9,0,66,0" name="GameRuleLanguage.sandbox.CustomData" />
+    </file>
+  </root>
+</debug-info>
 

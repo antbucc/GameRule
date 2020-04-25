@@ -9,9 +9,15 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
+  public static final int Action = 0;
+  public static final int Condition = 1;
+  public static final int GameRule = 2;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L);
+    builder.put(0x520310003ee1f8d9L, Action);
+    builder.put(0x520310003ee1f8cdL, Condition);
+    builder.put(0x520310003ee1f8beL, GameRule);
     myIndex = builder.seal();
   }
 

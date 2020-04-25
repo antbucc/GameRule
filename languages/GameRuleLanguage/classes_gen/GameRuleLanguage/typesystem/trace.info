@@ -1,8 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="7,0,11,0" name="GameRuleLanguage.typesystem.TypesystemDescriptor" />
+      <unit at="8,0,16,0" name="GameRuleLanguage.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:cf7c08ca-6b26-4981-a3bd-edcd907b519e(GameRuleLanguage.typesystem)/5909584729281934350">
+    <file name="TypesystemDescriptor.java">
+      <node id="5909584729281934350" at="10,5,11,81" concept="6" />
+      <node id="5909584729281934350" at="11,81,12,47" concept="2" />
+      <node id="5909584729281934350" at="9,33,13,5" concept="0" />
+      <scope id="5909584729281934350" at="10,5,12,47">
+        <var name="inferenceRule" id="5909584729281934350" />
+      </scope>
+    </file>
+    <file name="typeof_Condition_InferenceRule.java">
+      <node id="5909584729281934951" at="27,9,28,56" concept="6" />
+      <node id="5909584729281934951" at="28,56,29,197" concept="6" />
+      <node id="5909584729281934951" at="29,197,30,304" concept="2" />
+      <node id="5909584729281937990" at="34,5,35,51" concept="6" />
+      <node id="5909584729281937990" at="35,51,36,193" concept="6" />
+      <node id="5909584729281937990" at="36,193,37,333" concept="2" />
+      <node id="5909584729281937551" at="38,5,39,0" concept="8" />
+      <node id="5909584729281937120" at="39,0,40,0" concept="8" />
+      <node id="5909584729281934350" at="42,50,43,33" concept="7" />
+      <node id="5909584729281934350" at="45,68,46,102" concept="7" />
+      <node id="5909584729281934350" at="48,30,49,17" concept="7" />
+      <node id="5909584729281934993" at="51,69,52,63" concept="6" />
+      <node id="5909584729281934993" at="52,63,53,30" concept="6" />
+      <node id="5909584729281934993" at="53,30,54,230" concept="2" />
+      <node id="5909584729281934993" at="54,230,55,24" concept="7" />
+      <node id="5909584729281938695" at="57,75,58,84" concept="6" />
+      <node id="5909584729281938695" at="58,84,59,66" concept="2" />
+      <node id="5909584729281938695" at="59,66,60,36" concept="7" />
+      <node id="5909584729281934350" at="64,0,65,0" concept="9" trace="constraints$ZFBU" />
+      <node id="5909584729281934350" at="65,0,66,0" concept="9" trace="patternType$ZGZ_" />
+      <node id="5909584729281934350" at="66,0,67,0" concept="9" trace="classifier$pQ_R" />
+      <node id="5909584729281934350" at="70,0,71,0" concept="9" trace="Condition$UC" />
+      <node id="5909584729281934350" at="71,0,72,0" concept="9" trace="ClassifierType$IZ" />
+      <node id="5909584729281934350" at="22,0,24,0" concept="1" trace="typeof_Condition_InferenceRule#()V" />
+      <node id="5909584729281934350" at="42,0,45,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5909584729281934350" at="45,0,48,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="5909584729281934350" at="48,0,51,0" concept="5" trace="overrides#()Z" />
+      <node id="5909584729281934951" at="26,61,31,9" concept="0" />
+      <node id="5909584729281937990" at="33,5,38,5" concept="0" />
+      <node id="5909584729281938695" at="57,0,62,0" concept="10" trace="createClassifierType_lzxzyp_a1a0c0b0b#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5909584729281934993" at="51,0,57,0" concept="10" trace="_quotation_createNode_lzxzyp_a1a0c0a0a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5909584729281934951" at="25,116,32,7" concept="4" />
+      <node id="5909584729281934357" at="24,122,33,5" concept="3" />
+      <node id="5909584729281934350" at="24,0,42,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="5909584729281934350" at="22,43,22,43" />
+      <scope id="5909584729281934350" at="42,50,43,33" />
+      <scope id="5909584729281934350" at="45,68,46,102" />
+      <scope id="5909584729281934350" at="48,30,49,17" />
+      <scope id="5909584729281934350" at="22,0,24,0" />
+      <scope id="5909584729281934951" at="27,9,30,304">
+        <var name="_info_12389875345" id="5909584729281934951" />
+        <var name="_nodeToCheck_1029348928467" id="5909584729281934951" />
+      </scope>
+      <scope id="5909584729281937990" at="34,5,37,333">
+        <var name="_info_12389875345" id="5909584729281937990" />
+        <var name="_nodeToCheck_1029348928467" id="5909584729281937990" />
+      </scope>
+      <scope id="5909584729281934350" at="42,0,45,0" />
+      <scope id="5909584729281934350" at="45,0,48,0">
+        <var name="argument" id="5909584729281934350" />
+      </scope>
+      <scope id="5909584729281934350" at="48,0,51,0" />
+      <scope id="5909584729281938695" at="57,75,60,36">
+        <var name="rootBuilder1" id="5909584729281938695" />
+      </scope>
+      <scope id="5909584729281934993" at="51,69,55,24">
+        <var name="facade" id="5909584729281934993" />
+        <var name="quotedNode_1" id="5909584729281934993" />
+      </scope>
+      <scope id="5909584729281934951" at="26,61,31,9" />
+      <scope id="5909584729281938695" at="57,0,62,0">
+        <var name="node0" id="5909584729281938695" />
+      </scope>
+      <scope id="5909584729281934993" at="51,0,57,0" />
+      <scope id="5909584729281934360" at="25,116,32,7" />
+      <scope id="5909584729281934357" at="24,122,33,5">
+        <var name="constraint" id="5909584729281934358" />
+      </scope>
+      <scope id="5909584729281934351" at="24,122,40,0" />
+      <scope id="5909584729281934350" at="24,0,42,0">
+        <var name="condition" id="5909584729281934350" />
+        <var name="status" id="5909584729281934350" />
+        <var name="typeCheckingContext" id="5909584729281934350" />
+      </scope>
+      <unit id="5909584729281934350" at="69,0,73,0" name="GameRuleLanguage.typesystem.typeof_Condition_InferenceRule$CONCEPTS" />
+      <unit id="5909584729281934350" at="63,0,68,0" name="GameRuleLanguage.typesystem.typeof_Condition_InferenceRule$LINKS" />
+      <unit id="5909584729281934350" at="21,0,74,0" name="GameRuleLanguage.typesystem.typeof_Condition_InferenceRule" />
     </file>
   </root>
 </debug-info>
