@@ -17,6 +17,7 @@ import java.text.SimpleDateFormat;
 public class PointConcept extends GameConcept {
   private Double score = 0.0;
 
+
   private LinkedHashMap<String, PeriodInternal> periods = new <String,PeriodInternal>LinkedHashMap();
   public DateTimeFormatter PERIOD_KEY_FORMAT = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss");
   /*package*/ long executionMoment = System.currentTimeMillis();

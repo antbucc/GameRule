@@ -97,6 +97,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -203,8 +204,9 @@
       <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
     </language>
     <language id="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2" name="GameRuleLanguage">
-      <concept id="7618760588957470007" name="GameRuleLanguage.structure.InsertAction" flags="ng" index="2GdgHk">
-        <child id="7618760588957470008" name="value" index="2GdgHr" />
+      <concept id="7618760588958696670" name="GameRuleLanguage.structure.ModifyAction" flags="ng" index="2G6$aX">
+        <reference id="7618760588958696696" name="factExpression" index="2G6$ar" />
+        <child id="7618760588958696671" name="value" index="2G6$aW" />
       </concept>
       <concept id="5909584729281263806" name="GameRuleLanguage.structure.GameRule" flags="ng" index="1GSIyY">
         <child id="5909584729281263816" name="conditions" index="1GSIz8" />
@@ -212,6 +214,7 @@
       </concept>
       <concept id="5909584729281263821" name="GameRuleLanguage.structure.Condition" flags="ng" index="1GSIzd">
         <reference id="5909584729281322964" name="patternType" index="1GSsZk" />
+        <child id="5909584729281322909" name="constraints" index="1GSsYt" />
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
@@ -256,13 +259,49 @@
   </registry>
   <node concept="1GSIyY" id="583400YSGhL">
     <property role="TrG5h" value="test" />
-    <node concept="2GdgHk" id="6AVhAf5BGqV" role="1GSI$h">
-      <node concept="Xl_RD" id="6AVhAf5BGr1" role="2GdgHr">
-        <property role="Xl_RC" value="sdsfds" />
+    <node concept="1GSIzd" id="6AVhAf5QSZt" role="1GSIz8">
+      <ref role="1GSsZk" node="583400YVjmK" resolve="Action" />
+      <node concept="3clFbC" id="6AVhAf5R1Pc" role="1GSsYt">
+        <node concept="1rXfSq" id="6AVhAf5R1ON" role="3uHU7B">
+          <ref role="37wK5l" node="583400YVjn2" resolve="getId" />
+        </node>
+        <node concept="Xl_RD" id="6AVhAf5R2Td" role="3uHU7w">
+          <property role="Xl_RC" value="taskCompleted" />
+        </node>
       </node>
     </node>
-    <node concept="1GSIzd" id="6AVhAf5Ab$V" role="1GSIz8">
-      <ref role="1GSsZk" node="583400YVjmK" resolve="Action" />
+    <node concept="2G6$aX" id="6AVhAf5PVq$" role="1GSI$h">
+      <ref role="2G6$ar" node="6AVhAf5Iuuo" resolve="pointsScore" />
+      <node concept="1rXfSq" id="6AVhAf5PVqI" role="2G6$aW">
+        <ref role="37wK5l" node="583400YVjFJ" resolve="setScore" />
+        <node concept="3b6qkQ" id="6AVhAf5PVr9" role="37wK5m">
+          <property role="$nhwW" value="2.0" />
+        </node>
+      </node>
+    </node>
+    <node concept="1GSIzd" id="6AVhAf5Iuuo" role="1GSIz8">
+      <property role="TrG5h" value="pointsScore" />
+      <ref role="1GSsZk" node="583400YVjnm" resolve="PointConcept" />
+      <node concept="3clFbC" id="6AVhAf5QSXL" role="1GSsYt">
+        <node concept="Xl_RD" id="6AVhAf5QSYl" role="3uHU7w">
+          <property role="Xl_RC" value="points" />
+        </node>
+        <node concept="1rXfSq" id="6AVhAf5ShGB" role="3uHU7B">
+          <ref role="37wK5l" node="583400YVjQ$" resolve="getName" />
+        </node>
+      </node>
+    </node>
+    <node concept="1GSIzd" id="6AVhAf5R2US" role="1GSIz8">
+      <property role="TrG5h" value="goldCoinScore" />
+      <ref role="1GSsZk" node="583400YVjnm" resolve="PointConcept" />
+      <node concept="3clFbC" id="6AVhAf5R317" role="1GSsYt">
+        <node concept="Xl_RD" id="6AVhAf5R31J" role="3uHU7w">
+          <property role="Xl_RC" value="gold coins" />
+        </node>
+        <node concept="1rXfSq" id="6AVhAf5R30A" role="3uHU7B">
+          <ref role="37wK5l" node="583400YVjQ$" resolve="getName" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="583400YVjmK">
@@ -1102,6 +1141,7 @@
       </node>
       <node concept="3Tm6S6" id="583400YVjCY" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="6AVhAf5RTb2" role="jymVt" />
     <node concept="2tJIrI" id="6AVhAf5tA9O" role="jymVt" />
     <node concept="312cEg" id="583400Z2HGd" role="jymVt">
       <property role="TrG5h" value="periods" />
@@ -1157,9 +1197,7 @@
       <node concept="3cqZAl" id="583400YVjDk" role="3clF45" />
       <node concept="37vLTG" id="583400YVjDl" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="583400YVjDm" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="6AVhAf5RZix" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="583400YVjDn" role="3clF46">
         <property role="TrG5h" value="moment" />
@@ -1190,9 +1228,7 @@
       <node concept="3cqZAl" id="583400YVjDy" role="3clF45" />
       <node concept="37vLTG" id="583400YVjDz" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="583400YVjD$" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="6AVhAf5S03O" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="583400YVjD_" role="3clF47">
         <node concept="XkiVB" id="583400YVjTF" role="3cqZAp">

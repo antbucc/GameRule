@@ -17,6 +17,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCondition = createDescriptorForCondition();
   /*package*/ final ConceptDescriptor myConceptGameRule = createDescriptorForGameRule();
   /*package*/ final ConceptDescriptor myConceptInsertAction = createDescriptorForInsertAction();
+  /*package*/ final ConceptDescriptor myConceptModifyAction = createDescriptorForModifyAction();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -32,7 +33,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptCondition, myConceptGameRule, myConceptInsertAction);
+    return Arrays.asList(myConceptAction, myConceptCondition, myConceptGameRule, myConceptInsertAction, myConceptModifyAction);
   }
 
   @Override
@@ -47,6 +48,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptGameRule;
       case LanguageConceptSwitch.InsertAction:
         return myConceptInsertAction;
+      case LanguageConceptSwitch.ModifyAction:
+        return myConceptModifyAction;
       default:
         return null;
     }
@@ -98,6 +101,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("value", 0x69bb4663c58e4d38L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(false).origin("7618760588957470008").done();
     b.alias("insert");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForModifyAction() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("GameRuleLanguage", "ModifyAction", 0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x69bb4663c5a104deL);
+    b.class_(false, false, true);
+    b.super_("GameRuleLanguage.structure.Action", 0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8d9L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
+    b.origin("r:06154292-2ec1-4729-9e74-188f8af946cf(GameRuleLanguage.structure)/7618760588958696670");
+    b.version(2);
+    b.associate("factExpression", 0x69bb4663c5a104f8L).target(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L, 0x520310003ee1f8cdL).optional(false).origin("7618760588958696696").done();
+    b.aggregate("value", 0x69bb4663c5a104dfL).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(false).ordered(true).multiple(true).origin("7618760588958696671").done();
+    b.alias("modify");
     return b.create();
   }
 }

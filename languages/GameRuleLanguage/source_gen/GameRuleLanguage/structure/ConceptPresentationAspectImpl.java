@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Condition;
   private ConceptPresentation props_GameRule;
   private ConceptPresentation props_InsertAction;
+  private ConceptPresentation props_ModifyAction;
 
   @Override
   @Nullable
@@ -46,6 +47,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_InsertAction = cpb.create();
         }
         return props_InsertAction;
+      case LanguageConceptSwitch.ModifyAction:
+        if (props_ModifyAction == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("modify");
+          props_ModifyAction = cpb.create();
+        }
+        return props_ModifyAction;
     }
     return null;
   }

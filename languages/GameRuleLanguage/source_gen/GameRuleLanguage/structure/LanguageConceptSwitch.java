@@ -13,6 +13,7 @@ public final class LanguageConceptSwitch {
   public static final int Condition = 1;
   public static final int GameRule = 2;
   public static final int InsertAction = 3;
+  public static final int ModifyAction = 4;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x7243e6ac03d84eb4L, 0x9ecc7a6ffc7a53d2L);
@@ -20,6 +21,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x520310003ee1f8cdL, Condition);
     builder.put(0x520310003ee1f8beL, GameRule);
     builder.put(0x69bb4663c58e4d37L, InsertAction);
+    builder.put(0x69bb4663c5a104deL, ModifyAction);
     myIndex = builder.seal();
   }
 
