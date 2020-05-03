@@ -3,6 +3,7 @@ Domain Specific Language for the Gamification Rule Specification
 
 ## Rule Example
 
+```
 rule "reward level-1"
 when
     Action( id == 'taskCompleted')
@@ -17,3 +18,4 @@ then
 	modify($pointsScore) { setScore(5.0); } // update the counter    
 	modify($goldCoinScore) { setScore(3.0); } // update the counter
 end
+```
