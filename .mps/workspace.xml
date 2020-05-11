@@ -7,59 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e982b053-c182-4b18-aca6-e48a0742e586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/Condition_EditorBuilder_a$constraintsListHandler_2lgv54_f0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/GameRule_EditorBuilder_a$actionsListHandler_2sr4nz_f3a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/InsertAction_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/InsertAction_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/InsertAction_EditorBuilder_a$valueSingleRoleHandler_x7fovi_c0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/InsertAction_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/classes_gen/GameRuleLanguage/sandbox/PointConcept$Period.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/classes_gen/GameRuleLanguage/sandbox/PointConcept$PeriodInstance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/classes_gen/GameRuleLanguage/sandbox/PointConcept$PeriodInstanceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/classes_gen/GameRuleLanguage/sandbox/PointConcept$PeriodInternal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/classes_gen/GameRuleLanguage/sandbox/PointConcept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/ModifyAction__BehaviorDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/ModifyAction_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/ModifyAction_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/GameRuleLanguage.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/GameRuleLanguage.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/LanguageConceptSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/classes_gen/GameRuleLanguage/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/source_gen.caches/GameRuleLanguage/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen.caches/GameRuleLanguage/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/BehaviorAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/BehaviorAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/GameRuleLanguage/source_gen/GameRuleLanguage/structure/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,31 +20,47 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="eab7d692-052e-4060-9fc9-715696db17d8/r:b9eeb542-b4d7-451e-b3fb-964c2a77ac9d(TempModuleeab7d692-052e-4060-9fc9-715696db17d8/ConsoleModel_145689680682394)">
+            <model ref="69e56a51-b14d-44b4-8007-aedbaccc921b/r:3bca08c5-b4d7-4b14-a4ed-46dca6a68e42(TempModule69e56a51-b14d-44b4-8007-aedbaccc921b/ConsoleModel_364533918855598)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
               </languages>
               <imports />
               <registry>
+                <language id="a5e4de53-46a3-44da-aab3-68fdf1c34ed0" name="jetbrains.mps.console.ideCommands">
+                  <concept id="2840424593984889115" name="jetbrains.mps.console.ideCommands.structure.RemoveGenSources" flags="ng" index="1gETo5" />
+                </language>
                 <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
                   <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
                     <child id="1583916890557930415" name="history" index="aymYE" />
                     <child id="1583916890557930417" name="commandHolder" index="aymYO" />
                     <child id="9025248442620242919" name="cursor" index="1PhJh3" />
                   </concept>
+                  <concept id="7656298970878093785" name="jetbrains.mps.console.base.structure.BLExpression" flags="ng" index="f80E0">
+                    <child id="7656298970878093890" name="expression" index="f80$r" />
+                  </concept>
                   <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
                     <reference id="5758176878586720818" name="target" index="2_V_lI" />
                   </concept>
-                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
-                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F">
+                    <child id="351968380916615460" name="command" index="2Clzx4" />
+                  </concept>
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm">
+                    <child id="7195119950189425818" name="item" index="18xWvz" />
+                  </concept>
                 </language>
               </registry>
-              <node concept="aymSD" id="6AVhAf5pDPd">
-                <node concept="3balQm" id="6AVhAf5pDPe" role="aymYE" />
-                <node concept="2Clz$F" id="6AVhAf5pDPf" role="aymYO" />
-                <node concept="2_V_lH" id="6AVhAf5pDPg" role="1PhJh3">
-                  <ref role="2_V_lI" node="6AVhAf5pDPf" resolve="CommandHolder" />
+              <node concept="aymSD" id="3wCbF3$D0BP">
+                <node concept="3balQm" id="3wCbF3$D0BQ" role="aymYE">
+                  <node concept="2Clz$F" id="3wCbF3$D0BR" role="18xWvz">
+                    <node concept="f80E0" id="3wCbF3$D0BS" role="2Clzx4">
+                      <node concept="1gETo5" id="3wCbF3$D0BT" role="f80$r" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2Clz$F" id="3wCbF3$D0BU" role="aymYO" />
+                <node concept="2_V_lH" id="3wCbF3$D0BV" role="1PhJh3">
+                  <ref role="2_V_lI" node="3wCbF3$D0BU" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -244,51 +208,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6badac4f-d758-4eb6-a17c-98543e6cc99e(GameRuleLanguage.behavior) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/models/GameRuleLanguage.behavior.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:58fe4392-6b23-49f6-a8d6-1651ec2bc49f(GameRuleLanguage.constraints) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/models/GameRuleLanguage.constraints.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
+              <option name="myItemId" value="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox) in IdeaFile[path: /Entwicklung/Project/AntonioBucchiarone/GameRule/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,6 +219,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,41 +242,36 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:06154292-2ec1-4729-9e74-188f8af946cf(GameRuleLanguage.structure) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="7243e6ac-03d8-4eb4-9ecc-7a6ffc7a53d2(GameRuleLanguage)" />
+              <option name="myItemId" value="738395f2-de7e-454a-a452-93e58dd7d2e4" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:06154292-2ec1-4729-9e74-188f8af946cf(GameRuleLanguage.structure) in IdeaFile[path: /Users/bucchiarone/MPSProjects/GameRule/languages/GameRuleLanguage/models/GameRuleLanguage.structure.mps]" />
+              <option name="myItemId" value="GameRuleLanguage" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5909584729281263806" />
+              <option name="myItemId" value="r:8ed6da9f-9a90-42e0-bffa-e1dffc44a297(GameRuleLanguage.sandbox) in IdeaFile[path: /Entwicklung/Project/AntonioBucchiarone/GameRule/languages/GameRuleLanguage/sandbox/models/GameRuleLanguage.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -362,6 +283,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -409,13 +333,38 @@
       <option name="project" value="LOCAL" />
       <updated>1587834720649</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="remove *_gen* folders from git, add GameRule and GameRuleToDrools">
+      <created>1589217371159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589217371160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="remove *_gen* folders from git, add GameRule and GameRuleToDrools">
+      <created>1589217540542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589217540542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
     <tabs>
       <tab>
+        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+          </child>
+        </result_provider>
+        <query>
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.GlobalScope" />
+          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+            <node ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/2791683072064593257" title="packageName" />
+          </holder>
+        </query>
         <usage_view>
           <tree_wrapper>
             <view_options>
@@ -429,21 +378,21 @@
                 <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
                   <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
                   <role name="category:Category" />
-                  <child caption="Drools.sandbox" excluded="false" isresult="false" results_section="false" module_ref="bfaf09b9-0eb2-4267-be94-ec47afec3eb2(Drools.sandbox)">
+                  <child caption="jetbrains.mps.baseLanguage" excluded="false" isresult="false" results_section="false" module_ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="Drools.sandbox" excluded="false" isresult="false" results_section="false">
+                    <child caption="jetbrains.mps.baseLanguage.structure" excluded="false" isresult="false" results_section="false">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="rule1" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:776effea-4608-40ca-bab8-b764da10c05d(Drools.sandbox)/87898470604489878" isRoot="true">
+                      <child caption="Classifier" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1107461130800" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="$test" info="(role: patterns in: rule1)" excluded="false" isresult="true" results_section="false" nodePtr="r:776effea-4608-40ca-bab8-b764da10c05d(Drools.sandbox)/4703868874257993324">
+                        <child caption="packageName" info="(role: propertyDeclaration in: Classifier)" excluded="false" isresult="true" results_section="false" nodePtr="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/2791683072064593257">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
                       </child>
-                      <model uid="r:776effea-4608-40ca-bab8-b764da10c05d(Drools.sandbox)" />
+                      <model uid="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
                     </child>
                   </child>
                 </child>
@@ -451,24 +400,167 @@
               <child caption="Usages" excluded="false" isresult="false" results_section="true">
                 <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
                 <role name="results" />
-                <child caption="rules which affect node's type" excluded="false" isresult="false" results_section="true" category="rules which affect node's type" category_kind="Category">
+                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
                   <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
                   <role name="category:Category" />
-                  <child caption="Drools" excluded="false" isresult="false" results_section="true" module_ref="8736d226-8431-488d-a836-b0056dc551c7(Drools)">
+                  <child caption="jetbrains.mps.baseLanguage" excluded="false" isresult="false" results_section="true" module_ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="Drools.typesystem" excluded="false" isresult="false" results_section="true">
+                    <child caption="jetbrains.mps.baseLanguage.textGen" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="typeof_Pattern" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:17cc9c73-1d83-479f-bcfd-fab2287928c3(Drools.typesystem)/87898470604543464" isRoot="true">
+                      <child caption="Annotation_TextGen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/1234886608901" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="typeof" info="(role: normalType in: ( expr ))" excluded="false" isresult="true" results_section="true" nodePtr="r:17cc9c73-1d83-479f-bcfd-fab2287928c3(Drools.typesystem)/87898470604545204">
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/336607797548610189">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/336607797548610196">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
                       </child>
-                      <model uid="r:17cc9c73-1d83-479f-bcfd-fab2287928c3(Drools.typesystem)" />
+                      <child caption="BaseLanguageTextGen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/1234796104060" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="getPackageName(node&lt;Classifier&gt;):string" info="(role: function in: BaseLanguageTextGen)" excluded="false" isresult="false" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/1234796511838">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/2791683072066486240">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/8396809633996183055">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <child caption="ClassConcept_TextGen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/1234891178357" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/2791683072067403411">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/2791683072067420374">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="EnumClass_TextGen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/1235740524220" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/336607797548597381">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/336607797548597388">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="Interface_TextGen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/1235068684876" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/336607797548603394">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)/336607797548603401">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)" />
+                    </child>
+                    <child caption="jetbrains.mps.baseLanguage.editor" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="ClassConcept_Editor" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/1074794490343" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="{packageName}" info="(role: childCellModel in: collection)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/2791683072064603159">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="EnumClass_Editor" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/1085483277582" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="{packageName}" info="(role: childCellModel in: collection)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/336607797548914652">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="Interface_Editor" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/1107796847143" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="{packageName}" info="(role: childCellModel in: collection)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)/336607797547660250">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
+                    </child>
+                    <child caption="jetbrains.mps.baseLanguage.behavior" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="Classifier_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/1213877306256" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="getFqName():string" info="(role: method in: Classifier_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/1213877306292">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/2791683072065677738">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)/2791683072065656793">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+                    </child>
+                  </child>
+                  <child caption="jetbrains.mps.baseLanguage.pluginSolution" excluded="false" isresult="false" results_section="true" module_ref="e8837c20-5f6c-49c3-987d-dc9d4b635bc6(jetbrains.mps.baseLanguage.pluginSolution)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="jetbrains.mps.baseLanguage.pluginSolution.plugin" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="MoveClasses" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)/5834644128080987394" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="execute(MPSProject,nlist&lt; &gt;):void" info="(role: member in: MoveClasses)" excluded="false" isresult="false" results_section="true" nodePtr="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)/5429212820774364119">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="processor" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)/1473188155722875260">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="root to target" />
+                            <child caption="Anonymous in execute() in MoveClasses" info="(role: cls in: anonymous class)" excluded="false" isresult="false" results_section="true" nodePtr="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)/5732777125910488983">
+                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                              <role name="root to target" />
+                              <child caption="process(list&lt;node&lt;&gt;&gt;,map&lt;node&lt;&gt;,KeepOldNodes&gt;,RefactoringSession):void" info="(role: member in: Anonymous in execute() in MoveClasses)" excluded="false" isresult="false" results_section="true" nodePtr="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)/5732777125910493007">
+                                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                                <role name="root to target" />
+                                <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)/7267624080287658216">
+                                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                                  <role name="target" />
+                                </child>
+                                <child caption="packageName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)/5732777125910845091">
+                                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                                  <role name="target" />
+                                </child>
+                              </child>
+                            </child>
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:dfc27cab-2d08-4c79-ac99-e95209e18392(jetbrains.mps.baseLanguage.pluginSolution.plugin)" />
                     </child>
                   </child>
                 </child>
@@ -482,15 +574,27 @@
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" all file added" />
     <MESSAGE value="It adds a portion of the THEN part of a rule" />
-    <option name="LAST_COMMIT_MESSAGE" value="It adds a portion of the THEN part of a rule" />
+    <MESSAGE value="remove *_gen* folders from git, add GameRule and GameRuleToDrools" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove *_gen* folders from git, add GameRule and GameRuleToDrools" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="23" key="#MPSPropertiesConfigurable" timestamp="1587548571546">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state x="436" y="23" key="#MPSPropertiesConfigurable" timestamp="1589218114181">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="374" y="0" key="#MPSPropertiesConfigurable/0.0.1440.900@0.0.1440.900" timestamp="1586358514065" />
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.830@0.23.1440.830" timestamp="1586442274819" />
@@ -501,6 +605,7 @@
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.841@0.23.1440.841" timestamp="1586271313510" />
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.842@0.23.1440.842" timestamp="1586292026512" />
     <state x="374" y="23" key="#MPSPropertiesConfigurable/0.23.1440.843@0.23.1440.843" timestamp="1586183865104" />
+    <state x="436" y="23" key="#MPSPropertiesConfigurable/0.23.1680.1027@0.23.1680.1027" timestamp="1589218114181" />
     <state x="317" y="70" key="#Notifications" timestamp="1587489943305">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
@@ -518,12 +623,13 @@
     <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.840@0.23.1440.840" timestamp="1587974162544" />
     <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.841@0.23.1440.841" timestamp="1587998212947" />
     <state x="369" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.842@0.23.1440.842" timestamp="1587997830999" />
-    <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1587494430710">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="691" y="377" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1589201889800">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.837@0.23.1440.837" timestamp="1585911464342" />
     <state x="592" y="312" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.838@0.23.1440.838" timestamp="1587494430710" />
     <state x="592" y="313" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1440.839@0.23.1440.839" timestamp="1585761124148" />
+    <state x="691" y="377" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1680.1027@0.23.1680.1027" timestamp="1589201889800" />
     <state x="243" y="171" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1587493769181">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
@@ -546,11 +652,20 @@
     <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.839@0.23.1440.839" timestamp="1585946569089" />
     <state x="529" y="252" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.841@0.23.1440.841" timestamp="1586269770168" />
     <state x="529" y="253" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.23.1440.843@0.23.1440.843" timestamp="1586183627399" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1587834720399">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="347" y="51" key="CommitChangelistDialog2" timestamp="1589217540363">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1587490657979" />
     <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.840@0.23.1440.840" timestamp="1587834720399" />
+    <state x="347" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1589217540363" />
+    <state x="100" y="123" width="1480" height="827" key="DiffContextDialog" timestamp="1589218114495">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="100" y="123" width="1480" height="827" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589218114495" />
+    <state x="687" y="437" key="Github.Dialog.Accounts.Choose" timestamp="1589217982517">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="687" y="437" key="Github.Dialog.Accounts.Choose/0.23.1680.1027@0.23.1680.1027" timestamp="1589217982517" />
     <state x="372" y="171" key="IDE.errors.dialog" timestamp="1587829753885">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
@@ -563,18 +678,20 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="378" y="156" key="VCS.ChangeListViewerDialog/0.23.1440.838@0.23.1440.838" timestamp="1587489976745" />
-    <state x="408" y="184" key="Vcs.Push.Dialog.v2" timestamp="1587834722493">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="476" y="220" key="Vcs.Push.Dialog.v2" timestamp="1589217560096">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="408" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1587490671475" />
     <state x="408" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.840@0.23.1440.840" timestamp="1587834722493" />
-    <state x="374" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1587829740746">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="476" y="220" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1589217560096" />
+    <state x="436" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1589200701431">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587474870905" />
     <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1587455701111" />
     <state x="374" y="285" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1587459985613" />
     <state x="374" y="288" key="com.intellij.ide.util.TipDialog/0.23.1440.840@0.23.1440.840" timestamp="1587829740746" />
+    <state x="436" y="347" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589200701431" />
     <state x="503" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587830947694">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
@@ -584,12 +701,16 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="487" y="350" key="git4idea.ui.GitResetDialog/0.23.1440.838@0.23.1440.838" timestamp="1587489978923" />
+    <state x="557" y="136" key="jetbrains.mps.ide.generator.GenPlanPickPanel.PickGenPlanModelDialog" timestamp="1589200916713">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="557" y="136" key="jetbrains.mps.ide.generator.GenPlanPickPanel.PickGenPlanModelDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589200916713" />
     <state x="668" y="392" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog" timestamp="1587494652317">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="668" y="392" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog/0.23.1440.838@0.23.1440.838" timestamp="1587494652317" />
-    <state x="749" y="362" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1587548544475">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state x="874" y="439" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1589200933249">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="749" y="365" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1585847655953" />
     <state x="749" y="360" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1586425337004" />
@@ -597,13 +718,15 @@
     <state x="749" y="362" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.837@0.23.1440.837" timestamp="1587548544475" />
     <state x="749" y="363" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.838@0.23.1440.838" timestamp="1587494572119" />
     <state x="749" y="363" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1440.839@0.23.1440.839" timestamp="1585841920498" />
-    <state x="465" y="297" width="817" height="500" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog" timestamp="1587997645074">
-      <screen x="0" y="23" width="1440" height="841" />
+    <state x="874" y="439" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589200933249" />
+    <state x="543" y="358" width="817" height="500" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog" timestamp="1589181065735">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="465" y="293" width="817" height="504" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.0.1440.900@0.0.1440.900" timestamp="1587487977789" />
     <state x="363" y="330" width="817" height="475" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.23.1440.830@0.23.1440.830" timestamp="1587393374790" />
     <state x="465" y="297" width="817" height="500" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.23.1440.841@0.23.1440.841" timestamp="1587997645074" />
     <state x="465" y="297" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.23.1440.842@0.23.1440.842" timestamp="1587988004612" />
+    <state x="543" y="358" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589181065735" />
     <state x="0" y="419" key="jetbrains.mps.typesystem.uiActions.SupertypesTree.MyBaseNodeDialog" timestamp="1587390473735">
       <screen x="0" y="23" width="1440" height="830" />
     </state>

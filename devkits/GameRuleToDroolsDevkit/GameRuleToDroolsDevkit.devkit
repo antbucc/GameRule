@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="GameRuleToDroolsDevkit" uuid="21df75da-bf88-4719-a83b-67c7431d68b7">
+  <exported-language name="66f532dd-1ab4-4f73-bca8-36f46483a329(GameRule)" />
+  <exported-language name="8a248a9a-900c-4aca-b9ce-5bff26e3832c(GameRuleToDrools)" />
+  <exported-solutions>
+    <exported-solution>ad7a302b-ed2c-4dfc-accd-5efd2d2f666e(GameRuleToDroolsPlan)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:2d780034-74a4-4c7c-8673-23b2a67f33dd(GameRuleToDroolsPlan@plan)" />
+</dev-kit>
+
