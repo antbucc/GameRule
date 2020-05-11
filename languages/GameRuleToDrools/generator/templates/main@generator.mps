@@ -14,8 +14,10 @@
     <language id="8a248a9a-900c-4aca-b9ce-5bff26e3832c" name="GameRuleToDrools">
       <concept id="7498526918401454880" name="GameRuleToDrools.structure.DroolsDocument" flags="ng" index="2Q5uQw">
         <property id="7498526918401454881" name="package" index="2Q5uQx" />
+        <child id="7498526918401692203" name="import" index="2Q6oMF" />
         <child id="7498526918401692204" name="ruleProxy" index="2Q6oMG" />
       </concept>
+      <concept id="7498526918401692169" name="GameRuleToDrools.structure.ImportDeclaration" flags="ng" index="2Q6oM9" />
       <concept id="7498526918401745783" name="GameRuleToDrools.structure.RuleProxy" flags="ng" index="2Q6BRR" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -31,6 +33,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="6528213125912070246" name="jetbrains.mps.baseLanguage.structure.Tokens" flags="ng" index="1u$dsA">
+        <property id="1843920760191311250" name="tokens" index="1CJj6V" />
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -100,6 +105,12 @@
   <node concept="2Q5uQw" id="6wg7C3u2UYu">
     <property role="TrG5h" value="map_Rule" />
     <property role="2Q5uQx" value="standard" />
+    <node concept="2Q6oM9" id="4CKfKOBB8bE" role="2Q6oMF">
+      <property role="1CJj6V" value="eu.trentorise.game.repo.LocalDateTimeDeserializer" />
+    </node>
+    <node concept="2Q6oM9" id="4CKfKOBBirW" role="2Q6oMF">
+      <property role="1CJj6V" value="eu.trentorise.game.repo.LocalDateTimeSerializer" />
+    </node>
     <node concept="2Q6BRR" id="6wg7C3u3kYN" role="2Q6oMG">
       <node concept="29HgVG" id="6wg7C3u3kZn" role="lGtFl">
         <node concept="3NFfHV" id="6wg7C3u3kZp" role="3NFExx">

@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="h9v2" ref="r:80ad8c30-9f6d-483d-bbbe-7cc9027551ea(GameRuleToDrools.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -101,8 +102,8 @@
           <node concept="l9hG8" id="6wg7C3u2qiZ" role="lcghm">
             <node concept="2OqwBi" id="6wg7C3u2qtj" role="lb14g">
               <node concept="117lpO" id="6wg7C3u2qjS" role="2Oq$k0" />
-              <node concept="3TrcHB" id="6wg7C3u2qBn" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              <node concept="3TrcHB" id="4CKfKOBBpM2" role="2OqNvi">
+                <ref role="3TsBF5" to="tpee:1AmV2_LaXQi" resolve="tokens" />
               </node>
             </node>
           </node>

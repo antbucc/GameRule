@@ -54,27 +54,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="6wg7C3u2p8c">
-    <ref role="1XX52x" to="h9v2:6wg7C3u2p89" resolve="ImportDeclaration" />
-    <node concept="3EZMnI" id="6wg7C3u2p8e" role="2wV5jI">
-      <node concept="l2Vlx" id="6wg7C3u2p8f" role="2iSdaV" />
-      <node concept="3F0ifn" id="6wg7C3u2p8g" role="3EZMnx">
-        <property role="3F0ifm" value="import " />
-      </node>
-      <node concept="3F0A7n" id="6wg7C3u2p8h" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="6wg7C3u2p8m" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-        <node concept="11L4FC" id="6wg7C3u2p8n" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3mYdg7" id="6wg7C3u2p8o" role="3F10Kt">
-          <property role="1413C4" value="body-paren" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="6wg7C3u2qHv">
     <ref role="1XX52x" to="h9v2:6wg7C3u1vcw" resolve="DroolsDocument" />
     <node concept="3EZMnI" id="6wg7C3u2qII" role="2wV5jI">

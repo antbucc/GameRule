@@ -76,10 +76,8 @@
   <node concept="1TIwiD" id="6wg7C3u2p89">
     <property role="EcuMT" value="7498526918401692169" />
     <property role="TrG5h" value="ImportDeclaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6wg7C3u2p8D" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
-    </node>
+    <property role="34LRSv" value="import" />
+    <ref role="1TJDcQ" to="tpee:1$K1wuo3Jf" resolve="JavaImport" />
   </node>
   <node concept="1TIwiD" id="6wg7C3u2AdR">
     <property role="EcuMT" value="7498526918401745783" />
