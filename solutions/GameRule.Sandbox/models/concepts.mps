@@ -11,10 +11,21 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
+        <child id="1083245396908" name="enumConstant" index="Qtgdg" />
+      </concept>
+      <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+      </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+        <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="66f532dd-1ab4-4f73-bca8-36f46483a329" name="GameRule">
       <concept id="7498526918401020861" name="GameRule.structure.ActionDeclaration" flags="ng" index="2PVOOX">
@@ -65,10 +76,17 @@
         <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
       </node>
     </node>
+    <node concept="2Q4qdi" id="4CKfKOBBDTC" role="2Q51Zt">
+      <property role="TrG5h" value="period" />
+      <node concept="3uibUv" id="4CKfKOBBF8v" role="2Q4D_l">
+        <ref role="3uigEE" node="4CKfKOBBDTI" resolve="Period" />
+      </node>
+    </node>
   </node>
   <node concept="2Q51Zo" id="6wg7C3u1lNj">
     <property role="TrG5h" value="gold coins" />
     <property role="3GE5qa" value="game concept" />
+    <property role="2Q51Zr" value="2" />
   </node>
   <node concept="2PVOOX" id="6wg7C3u1pw8">
     <property role="TrG5h" value="taskCompleted" />
@@ -88,6 +106,19 @@
   </node>
   <node concept="2PVORH" id="6wg7C3u3sN4">
     <property role="TrG5h" value="test" />
+  </node>
+  <node concept="Qs71p" id="4CKfKOBBDTI">
+    <property role="3GE5qa" value="game concept" />
+    <property role="TrG5h" value="Period" />
+    <node concept="QsSxf" id="4CKfKOBBDUW" role="Qtgdg">
+      <property role="TrG5h" value="daily" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="4CKfKOBBDYK" role="Qtgdg">
+      <property role="TrG5h" value="weekly" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="3Tm1VV" id="4CKfKOBBDTJ" role="1B3o_S" />
   </node>
 </model>
 

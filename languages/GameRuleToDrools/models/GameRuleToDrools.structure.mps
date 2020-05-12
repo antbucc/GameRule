@@ -12,6 +12,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -39,6 +42,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -61,6 +67,13 @@
       <property role="20kJfa" value="import" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6wg7C3u2p89" resolve="ImportDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="4CKfKOBBwrF" role="1TKVEi">
+      <property role="IQ2ns" value="5345842083420571371" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4CKfKOBBwEi" resolve="DrlComponent" />
     </node>
     <node concept="1TJgyj" id="6wg7C3u2p8G" role="1TKVEi">
       <property role="IQ2ns" value="7498526918401692204" />
@@ -88,6 +101,14 @@
       <property role="20kJfa" value="rule" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="1zkn:6wg7C3tZPdH" resolve="Rule" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4CKfKOBBwEi">
+    <property role="EcuMT" value="5345842083420572306" />
+    <property role="TrG5h" value="DrlComponent" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="t5JxF" id="4CKfKOBBwEj" role="lGtFl">
+      <property role="t5JxN" value="a temporary element for naming the children needed in a document" />
     </node>
   </node>
 </model>
