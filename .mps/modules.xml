@@ -2,8 +2,13 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/GameRuleToDroolsDevkit/GameRuleToDroolsDevkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/GameRule/GameRule.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/GameRuleLanguage/GameRuleLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/GameRuleLanguage/sandbox/GameRuleLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/GameRuleToDrools/GameRuleToDrools.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/GameRule.Sandbox/GameRule.Sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/GameRuleToDroolsPlan/GameRuleToDroolsPlan.msd" folder="" />
     </projectModules>
   </component>
 </project>

@@ -19,3 +19,13 @@ then
 	modify($goldCoinScore) { setScore(3.0); } // update the counter
 end
 ```
+
+## Approach
+
+Reward `level-1` 
+
+every `taskCompleted` in `level-1` with `3.0` `moves` and `0.0` errors` 
+ * set `points`.`score` to `5.0`
+ * set `gold coins`.`score` to `3.0`
+
+
